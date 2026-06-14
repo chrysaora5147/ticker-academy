@@ -1,21 +1,21 @@
 import { html } from "./html.js";
 
 const reportRows = [
-  ["Growth Energy", "growthEnergy"],
-  ["Stability", "stability"],
-  ["Moat Strength", "moatStrength"],
-  ["Valuation Pressure", "valuationPressure"],
-  ["Volatility", "volatility"],
-  ["Dividend Friendliness", "dividendFriendliness"]
+  ["พลังการเติบโต", "growthEnergy"],
+  ["ความนิ่ง", "stability"],
+  ["ความได้เปรียบ", "moatStrength"],
+  ["แรงกดดันจากความคาดหวัง", "valuationPressure"],
+  ["ความเหวี่ยง", "volatility"],
+  ["ความเป็นมิตรสายปันผล", "dividendFriendliness"]
 ];
 
 export function ReportCardComparison(left, right) {
   return html`
     <section class="comparison-panel">
-      <p class="section-kicker">Side-by-side report cards</p>
+      <p class="section-kicker">สมุดพกวางข้างกัน</p>
       <div class="comparison-report">
         <div class="comparison-report-head">
-          <span>Trait</span>
+          <span>หัวข้อ</span>
           <strong>${left.ticker}</strong>
           <strong>${right.ticker}</strong>
         </div>
@@ -31,7 +31,7 @@ export function ReportCardComparison(left, right) {
           })
           .join("")}
       </div>
-      <p class="small-note">These are personality-style teaching scores, not investment ratings.</p>
+      <p class="small-note">นี่คือคะแนนคาแรกเตอร์เพื่อการเรียนรู้ ไม่ใช่เรตติ้งการลงทุน</p>
     </section>
   `;
 }
