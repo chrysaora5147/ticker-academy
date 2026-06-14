@@ -1,16 +1,16 @@
 import { html } from "./html.js";
 
 const defaultDisclaimer =
-  "Ticker Academy is for education and entertainment only. It does not provide investment advice, financial planning, market forecasts, trade-action ratings, or return projections.";
+  "Ticker Academy ทำขึ้นเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุน การวางแผนการเงิน การคาดการณ์ราคา หรือสัญญาณซื้อขาย";
 
 export function DisclaimerBox(note = defaultDisclaimer) {
   return html`
     <section class="disclaimer-box" id="disclaimer">
       <div>
-        <p class="section-kicker">Educational disclaimer</p>
-        <h2>No recommendations, no predictions.</h2>
+        <p class="section-kicker">คำเตือนเพื่อการเรียนรู้</p>
+        <h2>ไม่มีคำแนะนำ ไม่มีคำทำนาย</h2>
       </div>
-      <p>${note} All company and ETF profiles are simplified teaching metaphors. Do your own research and consider speaking with a qualified professional before making financial decisions.</p>
+      <p>${note} ทุกบริษัทและ ETF ถูกเล่าเป็นตัวละครนักเรียนแบบย่อเพื่อให้เข้าใจง่าย ควรศึกษาข้อมูลเอง และปรึกษาผู้เชี่ยวชาญที่เหมาะสมก่อนตัดสินใจทางการเงิน</p>
     </section>
   `;
 }
