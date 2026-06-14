@@ -3,14 +3,14 @@ import { html } from "./html.js";
 export function RelationshipHints(left, right, comparison) {
   return html`
     <section class="comparison-panel">
-      <p class="section-kicker">Rivals, classmates, and roles</p>
+      <p class="section-kicker">เพื่อนร่วมชั้น คู่ปรับ และบทบาท</p>
       <div class="relationship-hints">
-        ${Hint("Same classroom", comparison.sameClassroom ? `${left.classroom}` : "Different hallways")}
-        ${Hint("Same role", comparison.sameArchetype ? `${left.archetype}` : "Different student roles")}
-        ${Hint("Same risk level", comparison.sameRiskLevel ? `${left.riskLevel}` : `${left.riskLevel} vs ${right.riskLevel}`)}
-        ${Hint("Shared tags", formatShared(comparison.sharedTags))}
-        ${Hint("Shared classmates", formatShared(comparison.sharedClassmates))}
-        ${Hint("Shared rivals", formatShared(comparison.sharedRivals))}
+        ${Hint("ห้องเดียวกันไหม", comparison.sameClassroom ? `${left.classroom}` : "คนละโถง")}
+        ${Hint("บทบาทคล้ายกันไหม", comparison.sameArchetype ? `${left.archetype}` : "บทบาทคนละแบบ")}
+        ${Hint("ระดับความซน", comparison.sameRiskLevel ? riskLabel(left.riskLevel) : `${riskLabel(left.riskLevel)} vs ${riskLabel(right.riskLevel)}`)}
+        ${Hint("แท็กร่วม", formatShared(comparison.sharedTags))}
+        ${Hint("เพื่อนร่วมชั้นร่วมกัน", formatShared(comparison.sharedClassmates))}
+        ${Hint("คู่ปรับร่วมกัน", formatShared(comparison.sharedRivals))}
       </div>
     </section>
   `;
@@ -26,5 +26,14 @@ function Hint(label, value) {
 }
 
 function formatShared(items) {
-  return items.length ? items.join(", ") : "No direct overlap in the current records";
+  return items.length ? items.join(", ") : "ยังไม่เจอจุดทับกันชัด ๆ ในแฟ้มชุดนี้";
+}
+
+function riskLabel(level) {
+  return {
+    Low: "ซนเบา",
+    Medium: "ซนกลาง",
+    High: "ซนมาก",
+    "Very High": "ซนเทอร์โบ"
+  }[level] || level;
 }
