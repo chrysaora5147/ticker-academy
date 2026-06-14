@@ -1,0 +1,11 @@
+{
+  "name": "ticker-academy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check:syntax": "node --check src/app.js && node --check src/pages/ClassroomsPage.js && node --check src/pages/ComparePage.js && node --check src/pages/PortfolioPage.js && node --check server.mjs && node --check scripts/validate.mjs"
+  }
+}
