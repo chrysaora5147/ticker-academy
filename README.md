@@ -11,7 +11,7 @@ The app remains static because this environment does not currently provide `npm`
 - `src/app.js` - lightweight client-side router, search binding, and classroom filter binding
 - `src/components/` - reusable UI renderers
 - `src/pages/` - page-level renderers for Home and Student Profile
-- `src/data/studentProfiles.js` - local mock profile data
+- `src/data/studentProfiles.js` - local mock profile data for 82 stock/ETF students
 - `src/lib/students.js` - data lookup and search helpers
 - `src/types/student.ts` - TypeScript shape for future migration
 - `scripts/validate.mjs` - profile data quality checks
@@ -44,12 +44,13 @@ http://127.0.0.1:4173
 /Users/boss/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/validate.mjs
 ```
 
-The validation script checks required fields, unique tickers, the fixed 20-profile MVP set, report-card values, local classmate and rival references, minimum content depth, starter examples, and forbidden recommendation-like language.
+The validation script checks required fields, unique tickers, the original MVP ticker set, expanded roster examples, report-card values, local classmate and rival references, minimum content depth, starter examples, and forbidden recommendation-like language.
 
 ## Current Scope
 
 - Static home page
 - Search across local mock profiles
+- Expanded static roster of 82 stock/ETF students
 - Student profile pages at `/students/[ticker]`
 - Classroom browsing at `/classrooms`
 - Filters by classroom, role, and risk level
@@ -111,12 +112,20 @@ The included `vercel.json` rewrites the current client-side routes back to `inde
 - `/students/AMD`
 - `/students/NVDA`
 - `/students/AAPL`
+- `/students/V`
+- `/students/KO`
+- `/students/JPM`
+- `/students/SMH`
 - `/classrooms`
 - `/compare?left=AMD&right=NVDA`
+- `/compare?left=V&right=MA`
+- `/compare?left=KO&right=PEP`
 - `/compare?left=SPY&right=QQQ`
 - `/compare?left=AAPL&right=MSFT`
 - `/portfolio?tickers=AAPL,MSFT,GOOGL,AMD,QQQ`
 - `/portfolio?tickers=NVDA,AMD,AVGO,TSM,ASML`
+- `/portfolio?tickers=NVDA,AMD,AVGO,TSM,SMH`
+- `/portfolio?tickers=SPY,QQQ,SCHD,VTI,XLK`
 - `/portfolio?tickers=SPY,QQQ,SCHD`
 
 ## Intentionally Not Included

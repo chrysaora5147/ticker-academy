@@ -449,7 +449,3479 @@ const baseStudentProfiles = [
     tags: ["ETF", "dividend", "quality", "cash flow"],
     investorFit: ["Useful for studying dividend-focused cohorts", "Good case study for quality and income style", "Helpful for comparing calmer ETF characters with growth-heavy cohorts"],
     disclaimerNote: "This educational profile describes SCHD's classroom style, not personal suitability."
-  }
+  },
+{
+  ticker: "QCOM",
+  companyName: "QUALCOMM Incorporated",
+  assetType: "stock",
+  classroom: "AI Chip Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กชิปมือถือสายเชื่อมต่อ",
+  roleTitle: "นักออกแบบสัญญาณไร้สาย",
+  shortDescription: "เด็กชิปที่ช่วยให้มือถือ อุปกรณ์ และรถบางรุ่นคุยกับโลกไร้สายได้ลื่นขึ้น",
+  personality: "คล่องตัว ชอบมาตรฐานการสื่อสาร และมีนิสัยพึ่งรอบสินค้าในห้องมือถืออยู่บ้าง",
+  oneLineStory: "QCOM คือเด็กชิปไร้สายที่ถือสมุด 5G เดินผ่านทั้งห้องมือถือ อุปกรณ์ และรถเชื่อมต่อ",
+  strengths: [
+    "ความรู้ด้าน modem และ wireless IP",
+    "มีบทบาทใน ecosystem มือถือและอุปกรณ์เชื่อมต่อ",
+    "รายได้จากชิปและ licensing ทำให้มีหลายมุมให้ศึกษา"
+  ],
+  weaknesses: [
+    "รอบมือถืออาจทำให้บรรยากาศแกว่ง",
+    "ลูกค้ารายใหญ่มีอิทธิพลต่อการบ้าน",
+    "การแข่งขันชิปประหยัดพลังงานยังเข้มข้น"
+  ],
+  riskTemperament: "เด็กชิปมือถือสายเชื่อมต่อ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "AAPL",
+    "INTC",
+    "MRVL"
+  ],
+  classmates: [
+    "NVDA",
+    "AMD",
+    "INTC",
+    "MRVL",
+    "TXN"
+  ],
+  tags: [
+    "chips",
+    "wireless",
+    "5G",
+    "mobile"
+  ],
+  investorFit: [
+    "เรียนรู้ธุรกิจชิปไร้สาย",
+    "ดูความสัมพันธ์ระหว่าง IP กับสินค้า",
+    "เข้าใจวัฏจักรอุปกรณ์ผู้บริโภค"
+  ],
+  disclaimerNote: "แฟ้มของ QCOM เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "INTC",
+  companyName: "Intel Corporation",
+  assetType: "stock",
+  classroom: "AI Chip Workshop",
+  sector: "Semiconductors",
+  archetype: "รุ่นพี่ชิปที่กำลังซ่อมแล็บ",
+  roleTitle: "นักสร้าง CPU และโรงงาน",
+  shortDescription: "เด็กชิปรุ่นเก๋าที่กำลังพยายามจัดโต๊ะใหม่ทั้งสินค้าและโรงงานผลิต",
+  personality: "มีประวัติยาว แข็งแรงบางวิชา แต่ช่วงนี้ต้องส่งงาน turnaround หลายเล่มพร้อมกัน",
+  oneLineStory: "INTC คือรุ่นพี่ห้องชิปที่เคยครองกระดาน และตอนนี้กำลังซ่อมแล็บให้กลับมาทันเพื่อน",
+  strengths: [
+    "ฐาน CPU และลูกค้าองค์กรยังสำคัญ",
+    "มีความพยายามด้าน foundry และ manufacturing",
+    "ชื่อแบรนด์เป็นที่รู้จักในพีซีและเซิร์ฟเวอร์"
+  ],
+  weaknesses: [
+    "การแข่งขันจาก AMD และ ARM กดดัน",
+    "การปรับโรงงานใช้เงินและเวลา",
+    "ความเชื่อมั่นต้องค่อย ๆ สร้างใหม่"
+  ],
+  riskTemperament: "รุ่นพี่ชิปที่กำลังซ่อมแล็บ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "C+",
+    moatStrength: "B",
+    valuationPressure: "Medium",
+    volatility: "High",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "AMD",
+    "NVDA",
+    "TSM"
+  ],
+  classmates: [
+    "AMD",
+    "QCOM",
+    "TXN",
+    "ADI",
+    "ON"
+  ],
+  tags: [
+    "chips",
+    "CPU",
+    "foundry",
+    "turnaround"
+  ],
+  investorFit: [
+    "เรียนรู้ธุรกิจ turnaround",
+    "ดูความเสี่ยงจากการลงทุนโรงงาน",
+    "เทียบผู้นำเดิมกับผู้ท้าชิง"
+  ],
+  disclaimerNote: "แฟ้มของ INTC เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "MRVL",
+  companyName: "Marvell Technology, Inc.",
+  assetType: "stock",
+  classroom: "AI Chip Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กชิปเครือข่ายสายดาต้าเซ็นเตอร์",
+  roleTitle: "นักต่อท่อข้อมูล",
+  shortDescription: "เด็กชิปที่ช่วยต่อทางเดินข้อมูลใน data center, networking และ custom silicon",
+  personality: "เทคนิคแน่น พลังสูง และอารมณ์ขึ้นลงตามความคาดหวังของห้อง AI infrastructure",
+  oneLineStory: "MRVL คือเด็กต่อท่อข้อมูลที่ช่วยให้ห้อง AI ส่งงานผ่านเครือข่ายได้เร็วขึ้น",
+  strengths: [
+    "เกี่ยวข้องกับ data center และ networking",
+    "มีบทเรียนเรื่อง custom silicon",
+    "ได้เรียนรู้โครงสร้างพื้นฐาน AI จากมุมชิปเชื่อมต่อ"
+  ],
+  weaknesses: [
+    "ความคาดหวัง AI อาจสูงกว่าจังหวะรายได้",
+    "ตลาด networking มีวัฏจักร",
+    "ต้องแข่งกับเพื่อนชิปหลายสาย"
+  ],
+  riskTemperament: "เด็กชิปเครือข่ายสายดาต้าเซ็นเตอร์ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "AVGO",
+    "NVDA",
+    "QCOM"
+  ],
+  classmates: [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "QCOM",
+    "SMH"
+  ],
+  tags: [
+    "AI",
+    "networking",
+    "data center",
+    "chips"
+  ],
+  investorFit: [
+    "เรียนรู้ data center plumbing",
+    "ดู custom silicon",
+    "เข้าใจความคาดหวังในธีม AI infrastructure"
+  ],
+  disclaimerNote: "แฟ้มของ MRVL เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "LRCX",
+  companyName: "Lam Research Corporation",
+  assetType: "stock",
+  classroom: "Infrastructure Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กเครื่องมือชิปสายโรงงาน",
+  roleTitle: "ผู้ดูแลโต๊ะผลิตเวเฟอร์",
+  shortDescription: "เด็กเครื่องมือโรงงานที่ช่วยให้เพื่อนชิปผลิตชิ้นงานละเอียดขึ้น",
+  personality: "ละเอียด รอบคอบ และผูกกับรอบลงทุนโรงงานของอุตสาหกรรมชิป",
+  oneLineStory: "LRCX คือเด็กเครื่องมือที่ยืนหลังห้องผลิต ช่วยให้แผ่นเวเฟอร์ผ่านการบ้านยาก ๆ",
+  strengths: [
+    "เชี่ยวชาญเครื่องมือผลิต semiconductor",
+    "เกี่ยวข้องกับ memory และ logic fabrication",
+    "มีบทเรียนเรื่อง capex cycle ของโรงงานชิป"
+  ],
+  weaknesses: [
+    "คำสั่งซื้อขึ้นลงตามวัฏจักรโรงงาน",
+    "ข้อจำกัดส่งออกอาจกระทบจังหวะ",
+    "ลูกค้ารายใหญ่มีน้ำหนักมาก"
+  ],
+  riskTemperament: "เด็กเครื่องมือชิปสายโรงงาน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "AMAT",
+    "KLAC",
+    "ASML"
+  ],
+  classmates: [
+    "ASML",
+    "AMAT",
+    "KLAC",
+    "TSM",
+    "SOXX"
+  ],
+  tags: [
+    "equipment",
+    "chips",
+    "manufacturing",
+    "cycle"
+  ],
+  investorFit: [
+    "เรียนรู้เครื่องมือผลิตชิป",
+    "ดูวัฏจักร capex",
+    "เทียบผู้ผลิตอุปกรณ์กับผู้ออกแบบชิป"
+  ],
+  disclaimerNote: "แฟ้มของ LRCX เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "AMAT",
+  companyName: "Applied Materials, Inc.",
+  assetType: "stock",
+  classroom: "Infrastructure Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กเครื่องมือสารพัดประโยชน์",
+  roleTitle: "ช่างอุปกรณ์โรงงานชิป",
+  shortDescription: "เด็กเครื่องมือที่มีอุปกรณ์หลายแบบสำหรับห้องผลิต semiconductor",
+  personality: "กว้าง ขยัน และเป็นตัวอย่างดีของธุรกิจหลังบ้านที่สำคัญต่อทั้งห้องชิป",
+  oneLineStory: "AMAT คือเด็กช่างสารพัดที่ถือกล่องเครื่องมือใหญ่ให้โรงงานชิปหลายโต๊ะยืมใช้",
+  strengths: [
+    "เครื่องมือหลากหลายสำหรับการผลิตชิป",
+    "ได้ประโยชน์จากความซับซ้อนของ manufacturing",
+    "ฐานลูกค้ากว้างในอุตสาหกรรม semiconductor"
+  ],
+  weaknesses: [
+    "ผูกกับรอบลงทุนโรงงาน",
+    "การแข่งขันกับเครื่องมือเฉพาะทาง",
+    "นโยบายการค้าสามารถเปลี่ยนจังหวะงานได้"
+  ],
+  riskTemperament: "เด็กเครื่องมือสารพัดประโยชน์ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B+",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "LRCX",
+    "KLAC",
+    "ASML"
+  ],
+  classmates: [
+    "LRCX",
+    "KLAC",
+    "ASML",
+    "TSM",
+    "SOXX"
+  ],
+  tags: [
+    "equipment",
+    "chips",
+    "manufacturing",
+    "infrastructure"
+  ],
+  investorFit: [
+    "เรียนรู้ supply chain ชิป",
+    "ดูธุรกิจเครื่องมือโรงงาน",
+    "เข้าใจว่าหลังบ้านสร้างความได้เปรียบอย่างไร"
+  ],
+  disclaimerNote: "แฟ้มของ AMAT เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "KLAC",
+  companyName: "KLA Corporation",
+  assetType: "stock",
+  classroom: "Infrastructure Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กตรวจการบ้านชิป",
+  roleTitle: "ผู้ตรวจคุณภาพเวเฟอร์",
+  shortDescription: "เด็กที่ช่วยตรวจข้อผิดพลาดในการผลิตชิปก่อนงานจะหลุดไปไกล",
+  personality: "พิถีพิถัน สำคัญต่อคุณภาพ และมักถูกมองว่าเป็นนักเรียนหลังบ้านที่ขาดไม่ได้",
+  oneLineStory: "KLAC คือเด็กตรวจการบ้านในโรงงานชิป คอยหา error ก่อนที่เพื่อนจะเสียคะแนนทั้งแผ่น",
+  strengths: [
+    "บทบาทสำคัญใน process control",
+    "ความซับซ้อนของชิปทำให้การตรวจสอบยิ่งสำคัญ",
+    "ธุรกิจมีลักษณะเฉพาะทางสูง"
+  ],
+  weaknesses: [
+    "ยังผูกกับ capex cycle",
+    "ลูกค้าชิปชะลองบได้",
+    "ข้อจำกัดด้านภูมิรัฐศาสตร์อาจมีผล"
+  ],
+  riskTemperament: "เด็กตรวจการบ้านชิป มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B+",
+    moatStrength: "A",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "AMAT",
+    "LRCX",
+    "ASML"
+  ],
+  classmates: [
+    "AMAT",
+    "LRCX",
+    "ASML",
+    "TSM",
+    "SOXX"
+  ],
+  tags: [
+    "equipment",
+    "quality",
+    "chips",
+    "manufacturing"
+  ],
+  investorFit: [
+    "เรียนรู้ process control",
+    "ดูธุรกิจตรวจคุณภาพ",
+    "เข้าใจ bottleneck ในโรงงานชิป"
+  ],
+  disclaimerNote: "แฟ้มของ KLAC เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "TXN",
+  companyName: "Texas Instruments Incorporated",
+  assetType: "stock",
+  classroom: "AI Chip Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กชิปอะนาล็อกใจเย็น",
+  roleTitle: "ผู้ดูแลวงจรพื้นฐาน",
+  shortDescription: "เด็กชิปที่ไม่ได้เสียงดังที่สุด แต่มีชิ้นส่วนพื้นฐานอยู่ในอุปกรณ์หลายชนิด",
+  personality: "สุขุม กระจายตัวกว้าง และเหมาะกับบทเรียนเรื่องวัฏจักรอุตสาหกรรมแบบไม่หวือหวา",
+  oneLineStory: "TXN คือเด็กชิปอะนาล็อกที่อยู่ในอุปกรณ์รอบโรงเรียน เงียบแต่จำเป็น",
+  strengths: [
+    "ฐาน analog และ embedded กว้าง",
+    "ลูกค้ากระจายหลายอุตสาหกรรม",
+    "นิสัย cash flow และ dividend น่าสังเกต"
+  ],
+  weaknesses: [
+    "วัฏจักรอุตสาหกรรมกดดันได้",
+    "การเติบโตไม่เร้าใจเท่าชิป AI",
+    "inventory cycle ทำให้ห้องเงียบเป็นช่วง"
+  ],
+  riskTemperament: "เด็กชิปอะนาล็อกใจเย็น มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "ADI",
+    "ON",
+    "QCOM"
+  ],
+  classmates: [
+    "ADI",
+    "ON",
+    "INTC",
+    "QCOM",
+    "SOXX"
+  ],
+  tags: [
+    "analog",
+    "chips",
+    "industrial",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ analog semiconductor",
+    "ดูวัฏจักรอุตสาหกรรม",
+    "เทียบชิปพื้นฐานกับชิป AI"
+  ],
+  disclaimerNote: "แฟ้มของ TXN เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "ADI",
+  companyName: "Analog Devices, Inc.",
+  assetType: "stock",
+  classroom: "AI Chip Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กแปลงสัญญาณสายอุตสาหกรรม",
+  roleTitle: "นักอ่านสัญญาณจริง",
+  shortDescription: "เด็กชิปที่ช่วยแปลงสัญญาณจากโลกจริงให้เครื่องจักรและอุปกรณ์เข้าใจ",
+  personality: "เทคนิคแน่น ไม่หวือหวา และสอนบทเรียนเรื่อง industrial กับ analog ได้ดี",
+  oneLineStory: "ADI คือเด็กที่ฟังเสียงจากโลกจริงแล้วแปลให้ระบบอิเล็กทรอนิกส์ในโรงเรียนเข้าใจ",
+  strengths: [
+    "ความเชี่ยวชาญ analog และ mixed-signal",
+    "เกี่ยวข้องกับ industrial, auto และ communication",
+    "ธุรกิจมีลักษณะเฉพาะทาง"
+  ],
+  weaknesses: [
+    "รอบอุตสาหกรรมอาจชะลอ",
+    "การเติบโตไม่เร็วเท่าเด็กซอฟต์แวร์",
+    "ต้องจัดการ inventory cycle"
+  ],
+  riskTemperament: "เด็กแปลงสัญญาณสายอุตสาหกรรม มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "TXN",
+    "ON",
+    "QCOM"
+  ],
+  classmates: [
+    "TXN",
+    "ON",
+    "INTC",
+    "QCOM",
+    "SOXX"
+  ],
+  tags: [
+    "analog",
+    "industrial",
+    "chips",
+    "sensors"
+  ],
+  investorFit: [
+    "เรียนรู้ mixed-signal chips",
+    "ดูความเชื่อมโยงกับ industrial cycle",
+    "เข้าใจชิปที่อยู่หลังฉาก"
+  ],
+  disclaimerNote: "แฟ้มของ ADI เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "ON",
+  companyName: "ON Semiconductor Corporation",
+  assetType: "stock",
+  classroom: "AI Chip Workshop",
+  sector: "Semiconductors",
+  archetype: "เด็กชิปพลังงานและรถไฟฟ้า",
+  roleTitle: "ผู้ดูแลไฟในอุปกรณ์",
+  shortDescription: "เด็กชิปที่เกี่ยวกับ power, sensors และรถไฟฟ้า ทำให้เครื่องจักรใช้พลังงานได้ฉลาดขึ้น",
+  personality: "พลังสูงกว่าชิปอะนาล็อกบางตัว และอ่อนไหวกับรอบรถยนต์กับอุตสาหกรรม",
+  oneLineStory: "ON คือเด็กชิปที่คุมไฟ คุม sensor และช่วยให้รถกับโรงงานเรียนวิชาประหยัดพลังงาน",
+  strengths: [
+    "เกี่ยวข้องกับ power semiconductor",
+    "มีบทเรียนเรื่อง EV และ industrial demand",
+    "ช่วยศึกษา silicon carbide และการจัดการพลังงาน"
+  ],
+  weaknesses: [
+    "รอบ EV และ industrial ผันผวนได้",
+    "การแข่งขันด้าน power chips เพิ่มขึ้น",
+    "ความคาดหวังอาจแกว่งตามธีมรถไฟฟ้า"
+  ],
+  riskTemperament: "เด็กชิปพลังงานและรถไฟฟ้า มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "Medium",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "TXN",
+    "ADI",
+    "TSLA"
+  ],
+  classmates: [
+    "TXN",
+    "ADI",
+    "QCOM",
+    "INTC",
+    "SOXX"
+  ],
+  tags: [
+    "power",
+    "EV",
+    "chips",
+    "industrial"
+  ],
+  investorFit: [
+    "เรียนรู้ power semiconductor",
+    "ดูความเชื่อมโยงกับ EV cycle",
+    "เข้าใจความเสี่ยงจากธีมอุตสาหกรรม"
+  ],
+  disclaimerNote: "แฟ้มของ ON เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "SMH",
+  companyName: "VanEck Semiconductor ETF",
+  assetType: "ETF",
+  classroom: "ETF Cohort",
+  sector: "ETF",
+  archetype: "ชมรม ETF ชิป",
+  roleTitle: "ตัวแทนห้อง semiconductor",
+  shortDescription: "ETF ที่รวมเพื่อนในห้องชิปหลายคนไว้ในแฟ้มเดียว เพื่อเรียนรู้ธีม semiconductor แบบกว้างขึ้น",
+  personality: "เป็นนักเรียนหมู่คณะที่พลังสูง เพราะเพื่อนในกลุ่มมีทั้งดาว AI โรงงาน และเครื่องมือผลิต",
+  oneLineStory: "SMH คือบัตรรวมเพื่อนห้องชิป ไม่ใช่เด็กคนเดียว แต่พาเห็นอารมณ์ของทั้งอุตสาหกรรม semiconductor",
+  strengths: [
+    "รวมหลายบริษัทในธีม semiconductor",
+    "ใช้ศึกษา concentration และ sector exposure",
+    "เห็นความเชื่อมโยงระหว่างชิป AI, foundry และ equipment"
+  ],
+  weaknesses: [
+    "ยังผันผวนตามรอบชิป",
+    "อาจกระจุกตัวในบางตัวใหญ่",
+    "ETF ธีมเดียวไม่กระจายเท่าตลาดกว้าง"
+  ],
+  riskTemperament: "ชมรม ETF ชิป มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "SOXX",
+    "QQQ",
+    "SPY"
+  ],
+  classmates: [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "TSM",
+    "SOXX"
+  ],
+  tags: [
+    "ETF",
+    "semiconductor",
+    "AI",
+    "chips"
+  ],
+  investorFit: [
+    "เรียนรู้ sector ETF",
+    "ดูความกระจุกตัวของธีมชิป",
+    "เทียบ ETF ธีมกับหุ้นรายตัว"
+  ],
+  disclaimerNote: "แฟ้มของ SMH เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "SOXX",
+  companyName: "iShares Semiconductor ETF",
+  assetType: "ETF",
+  classroom: "ETF Cohort",
+  sector: "ETF",
+  archetype: "ห้องรวมเพื่อนเซมิคอนดักเตอร์",
+  roleTitle: "ตัวแทน ETF ชิปอีกชุด",
+  shortDescription: "ETF ที่ใช้เป็นอีกบัตรรวมเพื่อนในอุตสาหกรรม semiconductor สำหรับเทียบกับ SMH",
+  personality: "เป็นนักเรียนหมู่คณะสายชิปที่ช่วยดูว่า index construction เปลี่ยนอารมณ์ห้องได้อย่างไร",
+  oneLineStory: "SOXX คืออีกสมุดรวมของห้องชิป เอาไว้เทียบว่าการจัดรายชื่อ ETF ทำให้บรรยากาศต่างกันอย่างไร",
+  strengths: [
+    "รวมหลายบริษัท semiconductor",
+    "ช่วยศึกษา ETF construction",
+    "ใช้เทียบกับ SMH และหุ้นชิปรายตัว"
+  ],
+  weaknesses: [
+    "sector concentration ยังสูง",
+    "วัฏจักรชิปกระทบทั้งห้อง",
+    "น้ำหนักรายตัวทำให้ผลลัพธ์ต่างจาก ETF อื่น"
+  ],
+  riskTemperament: "ห้องรวมเพื่อนเซมิคอนดักเตอร์ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "SMH",
+    "QQQ",
+    "SPY"
+  ],
+  classmates: [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "TSM",
+    "SMH"
+  ],
+  tags: [
+    "ETF",
+    "semiconductor",
+    "chips",
+    "sector"
+  ],
+  investorFit: [
+    "เรียนรู้ ETF ธีม semiconductor",
+    "ดู index weight",
+    "เข้าใจความต่างระหว่าง ETF คล้ายกัน"
+  ],
+  disclaimerNote: "แฟ้มของ SOXX เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "ADBE",
+  companyName: "Adobe Inc.",
+  assetType: "stock",
+  classroom: "Software & Cloud Lab",
+  sector: "Software",
+  archetype: "เด็กศิลปะดิจิทัลสายซอฟต์แวร์",
+  roleTitle: "ผู้ดูแลสมุดสร้างสรรค์",
+  shortDescription: "เด็กซอฟต์แวร์ที่ช่วยให้ทั้งโรงเรียนทำภาพ วิดีโอ เอกสาร และงานครีเอทีฟ",
+  personality: "สร้างสรรค์ มี subscription เป็นระเบียบ และกำลังเรียนบทใหม่เกี่ยวกับ AI creative tools",
+  oneLineStory: "ADBE คือเด็กศิลปะดิจิทัลที่เปลี่ยนห้องคอมให้กลายเป็นสตูดิโอสร้างสรรค์",
+  strengths: [
+    "แบรนด์แข็งแรงใน creative software",
+    "subscription model ช่วยให้รายได้อ่านง่ายขึ้น",
+    "มีบทเรียนเรื่อง AI กับเครื่องมือสร้างสรรค์"
+  ],
+  weaknesses: [
+    "AI อาจเปลี่ยนพฤติกรรมผู้ใช้",
+    "การแข่งขันเครื่องมือครีเอทีฟเพิ่มขึ้น",
+    "ความคาดหวังด้าน growth กดดันได้"
+  ],
+  riskTemperament: "เด็กศิลปะดิจิทัลสายซอฟต์แวร์ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "MSFT",
+    "INTU",
+    "NOW"
+  ],
+  classmates: [
+    "MSFT",
+    "CRM",
+    "NOW",
+    "INTU",
+    "TEAM"
+  ],
+  tags: [
+    "software",
+    "creative",
+    "AI",
+    "subscription"
+  ],
+  investorFit: [
+    "เรียนรู้ subscription software",
+    "ดู AI creative disruption",
+    "เข้าใจ brand moat ในซอฟต์แวร์"
+  ],
+  disclaimerNote: "แฟ้มของ ADBE เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "NOW",
+  companyName: "ServiceNow, Inc.",
+  assetType: "stock",
+  classroom: "Software & Cloud Lab",
+  sector: "Software",
+  archetype: "เด็กจัด workflow หลังห้อง",
+  roleTitle: "ผู้จัดระบบงานองค์กร",
+  shortDescription: "เด็กซอฟต์แวร์องค์กรที่ช่วยให้คำขอ งานบริการ และ workflow ในโรงเรียนไหลเป็นระบบ",
+  personality: "มีระเบียบ โตไว และชอบแก้ปัญหางานยุ่งขององค์กรให้กลายเป็นขั้นตอน",
+  oneLineStory: "NOW คือเด็กที่จัดคิวงานทั้งโรงเรียนให้รู้ว่าเรื่องไหนต้องไปโต๊ะไหนต่อ",
+  strengths: [
+    "แพลตฟอร์ม workflow องค์กรเหนียว",
+    "มีโอกาสขยายโมดูลในลูกค้าเดิม",
+    "เหมาะกับการเรียนรู้ enterprise SaaS"
+  ],
+  weaknesses: [
+    "มูลค่าคาดหวังสูงได้",
+    "การขายองค์กรใช้เวลา",
+    "ต้องรักษาการเติบโตเมื่อฐานใหญ่ขึ้น"
+  ],
+  riskTemperament: "เด็กจัด workflow หลังห้อง มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B+",
+    moatStrength: "A-",
+    valuationPressure: "High",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "CRM",
+    "MSFT",
+    "TEAM"
+  ],
+  classmates: [
+    "MSFT",
+    "CRM",
+    "ADBE",
+    "TEAM",
+    "DDOG"
+  ],
+  tags: [
+    "workflow",
+    "software",
+    "enterprise",
+    "SaaS"
+  ],
+  investorFit: [
+    "เรียนรู้ enterprise SaaS",
+    "ดู platform expansion",
+    "เข้าใจความคาดหวังของหุ้นซอฟต์แวร์โตสูง"
+  ],
+  disclaimerNote: "แฟ้มของ NOW เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "NFLX",
+  companyName: "Netflix, Inc.",
+  assetType: "stock",
+  classroom: "Platform & Commerce Hall",
+  sector: "Communication Services",
+  archetype: "หัวหน้าชมรมภาพยนตร์",
+  roleTitle: "นักเล่าเรื่องสตรีมมิง",
+  shortDescription: "เด็กสตรีมมิงที่ชวนทั้งโรงเรียนมาดูซีรีส์หลังเลิกเรียน และต้องบริหารคอนเทนต์ให้คุ้ม",
+  personality: "ครีเอทีฟ วินัยมากขึ้น และแข่งขันกับเวลาว่างของทุกคนในโรงเรียน",
+  oneLineStory: "NFLX คือหัวหน้าชมรมภาพยนตร์ที่ต้องทำให้เพื่อนต่อสมาชิกและกลับมาดูตอนใหม่",
+  strengths: [
+    "แบรนด์สตรีมมิงระดับโลก",
+    "ขนาดสมาชิกช่วยกระจายต้นทุนคอนเทนต์",
+    "มีบทเรียนเรื่อง pricing และ ad tier"
+  ],
+  weaknesses: [
+    "การแข่งขันแย่งเวลาผู้ชมสูง",
+    "คอนเทนต์ใช้เงินมาก",
+    "การเติบโตสมาชิกอาจช้าลงในบางช่วง"
+  ],
+  riskTemperament: "หัวหน้าชมรมภาพยนตร์ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "DIS",
+    "AMZN",
+    "GOOGL"
+  ],
+  classmates: [
+    "META",
+    "GOOGL",
+    "DIS",
+    "AMZN",
+    "QQQ"
+  ],
+  tags: [
+    "streaming",
+    "media",
+    "subscription",
+    "content"
+  ],
+  investorFit: [
+    "เรียนรู้ subscription media",
+    "ดู scale ในคอนเทนต์",
+    "เข้าใจการแข่งขันเพื่อ attention"
+  ],
+  disclaimerNote: "แฟ้มของ NFLX เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "SHOP",
+  companyName: "Shopify Inc.",
+  assetType: "stock",
+  classroom: "Platform & Commerce Hall",
+  sector: "Software",
+  archetype: "เด็กเปิดร้านให้เพื่อน",
+  roleTitle: "ผู้สร้างร้านค้าออนไลน์",
+  shortDescription: "เด็กแพลตฟอร์มที่ช่วยให้ร้านเล็กและแบรนด์ต่าง ๆ ตั้งแผงขายของออนไลน์ได้",
+  personality: "คล่องตัว ชอบผู้ประกอบการ และอารมณ์เหวี่ยงตามความหวัง e-commerce กับซอฟต์แวร์โตเร็ว",
+  oneLineStory: "SHOP คือเด็กที่แจกโต๊ะขายของออนไลน์ให้เพื่อนทั้งโรงเรียนตั้งร้านเอง",
+  strengths: [
+    "แพลตฟอร์ม commerce สำหรับผู้ขายจำนวนมาก",
+    "ecosystem ของ apps และ payments",
+    "ช่วยศึกษา merchant software"
+  ],
+  weaknesses: [
+    "การแข่งขัน commerce platform สูง",
+    "ความคาดหวัง growth ทำให้คะแนนแกว่ง",
+    "ธุรกิจผู้ขายรายเล็กอ่อนไหวต่อเศรษฐกิจ"
+  ],
+  riskTemperament: "เด็กเปิดร้านให้เพื่อน มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B-",
+    moatStrength: "B+",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "AMZN",
+    "PYPL",
+    "UBER"
+  ],
+  classmates: [
+    "AMZN",
+    "META",
+    "GOOGL",
+    "PYPL",
+    "CRM"
+  ],
+  tags: [
+    "commerce",
+    "platform",
+    "software",
+    "payments"
+  ],
+  investorFit: [
+    "เรียนรู้ merchant platform",
+    "ดู e-commerce ecosystem",
+    "เข้าใจ growth software volatility"
+  ],
+  disclaimerNote: "แฟ้มของ SHOP เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "UBER",
+  companyName: "Uber Technologies, Inc.",
+  assetType: "stock",
+  classroom: "Platform & Commerce Hall",
+  sector: "Technology",
+  archetype: "เด็กจัดรถหน้าประตูโรงเรียน",
+  roleTitle: "ผู้ประสานงานเดินทางและส่งของ",
+  shortDescription: "เด็กแพลตฟอร์มที่ต่อคนขับ ผู้โดยสาร ร้านอาหาร และคำสั่งส่งของเข้าด้วยกัน",
+  personality: "เคลื่อนไหวเร็ว เคยซนมาก และกำลังเรียนวิชาวินัยด้านกำไร",
+  oneLineStory: "UBER คือเด็กเวรหน้าประตูที่จัดรถ ส่งข้าว และคอยทำให้การเดินทางในโรงเรียนไม่ติดขัด",
+  strengths: [
+    "network marketplace ขนาดใหญ่",
+    "มีทั้ง mobility และ delivery",
+    "บทเรียนเรื่อง operating leverage หลังโตขึ้น"
+  ],
+  weaknesses: [
+    "กฎระเบียบแรงงานและเมืองสำคัญ",
+    "การแข่งขันและ incentive กระทบกำไร",
+    "ความต้องการเดินทางผันผวนได้"
+  ],
+  riskTemperament: "เด็กจัดรถหน้าประตูโรงเรียน มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "Medium",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "SHOP",
+    "AMZN",
+    "AMZN"
+  ],
+  classmates: [
+    "AMZN",
+    "SHOP",
+    "PYPL",
+    "META",
+    "QQQ"
+  ],
+  tags: [
+    "platform",
+    "mobility",
+    "delivery",
+    "marketplace"
+  ],
+  investorFit: [
+    "เรียนรู้ marketplace platform",
+    "ดู operating leverage",
+    "เข้าใจ regulatory risk ในแพลตฟอร์ม"
+  ],
+  disclaimerNote: "แฟ้มของ UBER เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "SNOW",
+  companyName: "Snowflake Inc.",
+  assetType: "stock",
+  classroom: "Data & Intelligence Club",
+  sector: "Software",
+  archetype: "เด็กคลังข้อมูลหิมะ",
+  roleTitle: "ผู้จัดสมุดข้อมูลบนคลาวด์",
+  shortDescription: "เด็กข้อมูลที่ช่วยให้บริษัทเก็บ แบ่งปัน และวิเคราะห์ข้อมูลบน cloud ได้เป็นระเบียบ",
+  personality: "ฉลาด โตไว แต่ถูกจับตาเรื่องการใช้เครดิตและความคาดหวังสูง",
+  oneLineStory: "SNOW คือเด็กคลังข้อมูลที่ช่วยให้สมุดข้อมูลหลายห้องมาอยู่บนโต๊ะเดียวกันแบบค้นง่าย",
+  strengths: [
+    "แพลตฟอร์ม data cloud เป็นธีมสำคัญ",
+    "ใช้ศึกษา consumption software model",
+    "เกี่ยวข้องกับ analytics และ AI readiness"
+  ],
+  weaknesses: [
+    "การใช้จ่ายลูกค้าอาจปรับตามงบ",
+    "การแข่งขัน data platform สูง",
+    "valuation pressure ทำให้คะแนนไวต่อข่าว"
+  ],
+  riskTemperament: "เด็กคลังข้อมูลหิมะ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "DDOG",
+    "NET",
+    "PLTR"
+  ],
+  classmates: [
+    "PLTR",
+    "DDOG",
+    "NET",
+    "TEAM",
+    "CRM"
+  ],
+  tags: [
+    "data",
+    "cloud",
+    "AI",
+    "software"
+  ],
+  investorFit: [
+    "เรียนรู้ data cloud",
+    "ดู consumption model",
+    "เข้าใจความคาดหวังในหุ้นข้อมูล"
+  ],
+  disclaimerNote: "แฟ้มของ SNOW เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "DDOG",
+  companyName: "Datadog, Inc.",
+  assetType: "stock",
+  classroom: "Data & Intelligence Club",
+  sector: "Software",
+  archetype: "เด็กเฝ้าห้องเซิร์ฟเวอร์",
+  roleTitle: "ผู้ดูแดชบอร์ดระบบ",
+  shortDescription: "เด็กซอฟต์แวร์ที่คอยดูว่าแอป เซิร์ฟเวอร์ และ cloud ในโรงเรียนทำงานปกติไหม",
+  personality: "ตื่นตัว เทคนิคแน่น และอารมณ์ตามงบ cloud ของลูกค้า",
+  oneLineStory: "DDOG คือเด็กเฝ้าหน้าจอที่เห็นสัญญาณเตือนก่อนเพื่อนรู้ว่าระบบมีปัญหา",
+  strengths: [
+    "observability platform สำหรับ cloud",
+    "ลูกค้าขยายการใช้โมดูลได้",
+    "ช่วยศึกษา software ที่ผูกกับ infrastructure"
+  ],
+  weaknesses: [
+    "งบ cloud optimization กระทบการใช้จ่าย",
+    "การแข่งขันจาก platform ใหญ่",
+    "หุ้นซอฟต์แวร์โตไวมี volatility"
+  ],
+  riskTemperament: "เด็กเฝ้าห้องเซิร์ฟเวอร์ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "SNOW",
+    "NET",
+    "TEAM"
+  ],
+  classmates: [
+    "SNOW",
+    "NET",
+    "PLTR",
+    "TEAM",
+    "NOW"
+  ],
+  tags: [
+    "observability",
+    "cloud",
+    "software",
+    "data"
+  ],
+  investorFit: [
+    "เรียนรู้ observability",
+    "ดู cloud usage cycle",
+    "เข้าใจ SaaS expansion model"
+  ],
+  disclaimerNote: "แฟ้มของ DDOG เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "NET",
+  companyName: "Cloudflare, Inc.",
+  assetType: "stock",
+  classroom: "Data & Intelligence Club",
+  sector: "Software",
+  archetype: "เด็กยามหน้าเว็บ",
+  roleTitle: "ผู้ดูแลความเร็วและความปลอดภัย",
+  shortDescription: "เด็กโครงข่ายซอฟต์แวร์ที่ช่วยให้เว็บเร็ว ปลอดภัย และเดินทางผ่านอินเทอร์เน็ตได้ดีขึ้น",
+  personality: "ฉลาด เร็ว และชอบตั้งด่านหน้าโรงเรียนเพื่อคุม traffic",
+  oneLineStory: "NET คือเด็กยามหน้าเว็บที่ช่วยให้ประตูอินเทอร์เน็ตของโรงเรียนเร็วและปลอดภัยขึ้น",
+  strengths: [
+    "เครือข่าย edge global",
+    "เกี่ยวข้องกับ security และ performance",
+    "มีหลายผลิตภัณฑ์ให้ขยายในลูกค้าเดิม"
+  ],
+  weaknesses: [
+    "การแข่งขัน security และ cloud สูง",
+    "ความคาดหวัง growth สูง",
+    "ต้องแปลง adoption เป็นกำไรสม่ำเสมอ"
+  ],
+  riskTemperament: "เด็กยามหน้าเว็บ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B-",
+    moatStrength: "B",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "DDOG",
+    "SNOW",
+    "AMZN"
+  ],
+  classmates: [
+    "DDOG",
+    "SNOW",
+    "PLTR",
+    "TEAM",
+    "NOW"
+  ],
+  tags: [
+    "edge",
+    "security",
+    "cloud",
+    "network"
+  ],
+  investorFit: [
+    "เรียนรู้ edge network",
+    "ดู cloud security platform",
+    "เข้าใจ growth-to-profitability path"
+  ],
+  disclaimerNote: "แฟ้มของ NET เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "TEAM",
+  companyName: "Atlassian Corporation",
+  assetType: "stock",
+  classroom: "Software & Cloud Lab",
+  sector: "Software",
+  archetype: "เด็กทำงานกลุ่มสายโปรเจกต์",
+  roleTitle: "ผู้จัดบอร์ดงานทีม",
+  shortDescription: "เด็กซอฟต์แวร์ที่ช่วยทีมเขียนงาน แจ้งปัญหา และติดตามโปรเจกต์ในโรงเรียน",
+  personality: "ร่วมมือเก่ง เป็นระบบ และต้องรักษาพลัง growth เมื่อองค์กรระวังงบ",
+  oneLineStory: "TEAM คือเด็กถือบอร์ดงานที่ทำให้ทุกกลุ่มรู้ว่าใครต้องส่งอะไรต่อ",
+  strengths: [
+    "เครื่องมือ collaboration และ developer workflow",
+    "ฐานผู้ใช้กว้างในทีมเทค",
+    "โมเดล cloud migration ให้บทเรียนสำคัญ"
+  ],
+  weaknesses: [
+    "การแข่งขัน productivity tools สูง",
+    "ลูกค้าองค์กรคุมงบได้",
+    "transition model ทำให้ตัวเลขอ่านยากบางช่วง"
+  ],
+  riskTemperament: "เด็กทำงานกลุ่มสายโปรเจกต์ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "MSFT",
+    "NOW",
+    "DDOG"
+  ],
+  classmates: [
+    "MSFT",
+    "NOW",
+    "ADBE",
+    "DDOG",
+    "NET"
+  ],
+  tags: [
+    "collaboration",
+    "software",
+    "developer",
+    "workflow"
+  ],
+  investorFit: [
+    "เรียนรู้ team software",
+    "ดู cloud migration",
+    "เข้าใจเครื่องมือ developer workflow"
+  ],
+  disclaimerNote: "แฟ้มของ TEAM เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "INTU",
+  companyName: "Intuit Inc.",
+  assetType: "stock",
+  classroom: "Software & Cloud Lab",
+  sector: "Software",
+  archetype: "เด็กบัญชีประจำห้อง",
+  roleTitle: "ผู้ช่วยภาษีและการเงินรายย่อย",
+  shortDescription: "เด็กซอฟต์แวร์ที่ช่วยคนทำบัญชี ภาษี และการเงินธุรกิจเล็กให้เป็นระบบ",
+  personality: "สุขุม ใช้ข้อมูลเก่ง และมีนิสัยผูกกับฤดูกาลภาษีและผู้ประกอบการรายย่อย",
+  oneLineStory: "INTU คือเด็กบัญชีที่ช่วยเพื่อนจัดใบเสร็จ ภาษี และการเงินไม่ให้กระจัดกระจาย",
+  strengths: [
+    "แบรนด์แข็งใน tax และ small business software",
+    "ข้อมูลและ workflow ทำให้ลูกค้าใช้งานต่อเนื่อง",
+    "มีบทเรียนเรื่อง fintech software"
+  ],
+  weaknesses: [
+    "ฤดูกาลภาษีทำให้จังหวะรายได้เฉพาะตัว",
+    "การแข่งขันใน SMB tools มีมาก",
+    "กฎและผลิตภัณฑ์การเงินเปลี่ยนได้"
+  ],
+  riskTemperament: "เด็กบัญชีประจำห้อง มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "ADBE",
+    "PYPL",
+    "SOFI"
+  ],
+  classmates: [
+    "MSFT",
+    "ADBE",
+    "CRM",
+    "NOW",
+    "PYPL"
+  ],
+  tags: [
+    "software",
+    "tax",
+    "SMB",
+    "fintech"
+  ],
+  investorFit: [
+    "เรียนรู้ vertical software",
+    "ดู SMB ecosystem",
+    "เข้าใจข้อมูลในบริการการเงิน"
+  ],
+  disclaimerNote: "แฟ้มของ INTU เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "IBM",
+  companyName: "International Business Machines Corporation",
+  assetType: "stock",
+  classroom: "Software & Cloud Lab",
+  sector: "Technology",
+  archetype: "รุ่นพี่ห้ององค์กรสายเมนเฟรม",
+  roleTitle: "นักผสม hybrid cloud",
+  shortDescription: "เด็กรุ่นพี่ที่อยู่กับองค์กรใหญ่มานาน มีทั้ง consulting, software และระบบเก่าใหม่ปนกัน",
+  personality: "นิ่งกว่าเด็กซอฟต์แวร์โตเร็ว มีประวัติยาว และกำลังเรียนบท hybrid cloud กับ AI องค์กร",
+  oneLineStory: "IBM คือรุ่นพี่ที่ยังดูแลระบบเก่าหลังโรงเรียน พร้อมถือสมุด hybrid cloud เดินเข้าห้องใหม่",
+  strengths: [
+    "ความสัมพันธ์องค์กรยาวนาน",
+    "บทบาทใน hybrid cloud และ consulting",
+    "นิสัย dividend และ cash flow น่าสังเกต"
+  ],
+  weaknesses: [
+    "การเติบโตไม่หวือหวา",
+    "ต้องพิสูจน์การเปลี่ยนผ่าน portfolio",
+    "การแข่งขัน cloud และ AI จากยักษ์ใหญ่สูง"
+  ],
+  riskTemperament: "รุ่นพี่ห้ององค์กรสายเมนเฟรม มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B+",
+    moatStrength: "B",
+    valuationPressure: "Low",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "MSFT",
+    "ORCL",
+    "CRM"
+  ],
+  classmates: [
+    "MSFT",
+    "ORCL",
+    "CRM",
+    "NOW",
+    "INTU"
+  ],
+  tags: [
+    "enterprise",
+    "hybrid cloud",
+    "consulting",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ legacy-to-cloud transition",
+    "ดู enterprise relationships",
+    "เข้าใจหุ้นเทคที่นิ่งขึ้น"
+  ],
+  disclaimerNote: "แฟ้มของ IBM เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "JPM",
+  companyName: "JPMorgan Chase & Co.",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "หัวหน้าห้องธนาคารใหญ่",
+  roleTitle: "ผู้ดูแลสมุดบัญชีทั้งโรงเรียน",
+  shortDescription: "เด็กธนาคารตัวใหญ่ที่มีทั้งเงินฝาก สินเชื่อ ตลาดทุน และการบริหารความเสี่ยง",
+  personality: "สุขุม แข็งแรง และเป็นตัวอย่างดีของระบบการเงินขนาดใหญ่ที่ต้องผ่านหลายฤดูกาล",
+  oneLineStory: "JPM คือหัวหน้าห้องการเงินที่คอยดูบัญชี เงินกู้ และสภาพคล่องของทั้งโรงเรียน",
+  strengths: [
+    "ขนาดและความหลากหลายของธุรกิจการเงิน",
+    "ฐานเงินฝากและลูกค้ากว้าง",
+    "ความสามารถด้าน risk management เป็นบทเรียนสำคัญ"
+  ],
+  weaknesses: [
+    "อ่อนไหวต่อเศรษฐกิจและ credit cycle",
+    "กฎระเบียบธนาคารเข้มงวด",
+    "อัตราดอกเบี้ยเปลี่ยนอารมณ์รายได้"
+  ],
+  riskTemperament: "หัวหน้าห้องธนาคารใหญ่ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "BAC",
+    "WFC",
+    "GS"
+  ],
+  classmates: [
+    "BAC",
+    "WFC",
+    "GS",
+    "MS",
+    "BLK"
+  ],
+  tags: [
+    "bank",
+    "finance",
+    "credit",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ธนาคารขนาดใหญ่",
+    "ดู credit cycle",
+    "เข้าใจบทบาทดอกเบี้ยกับเงินฝาก"
+  ],
+  disclaimerNote: "แฟ้มของ JPM เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "BAC",
+  companyName: "Bank of America Corporation",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กธนาคารเครือข่ายใหญ่",
+  roleTitle: "ผู้ดูแลบัญชีรายวัน",
+  shortDescription: "เด็กธนาคารที่มีลูกค้ารายย่อยและองค์กรจำนวนมาก เหมาะกับการเรียนรู้ดอกเบี้ยและเครดิต",
+  personality: "กว้าง ขึ้นกับเศรษฐกิจ และอารมณ์เปลี่ยนตามเส้นอัตราดอกเบี้ยได้",
+  oneLineStory: "BAC คือเด็กธนาคารโต๊ะใหญ่ที่เห็นทั้งเงินฝากรายวันและสินเชื่อของเพื่อนหลายกลุ่ม",
+  strengths: [
+    "ฐานลูกค้าและเงินฝากขนาดใหญ่",
+    "มีทั้ง consumer banking และ wealth",
+    "ใช้ศึกษาความสัมพันธ์กับอัตราดอกเบี้ย"
+  ],
+  weaknesses: [
+    "credit cycle กระทบผลลัพธ์",
+    "กฎระเบียบและเงินทุนสำรองสำคัญ",
+    "รายได้บางส่วนไวต่อดอกเบี้ย"
+  ],
+  riskTemperament: "เด็กธนาคารเครือข่ายใหญ่ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "B+",
+    moatStrength: "B",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "JPM",
+    "WFC",
+    "COF"
+  ],
+  classmates: [
+    "JPM",
+    "WFC",
+    "GS",
+    "MS",
+    "BLK"
+  ],
+  tags: [
+    "bank",
+    "deposits",
+    "credit",
+    "rates"
+  ],
+  investorFit: [
+    "เรียนรู้ธนาคารรายย่อย",
+    "ดูผลของดอกเบี้ย",
+    "เข้าใจ credit risk แบบง่าย"
+  ],
+  disclaimerNote: "แฟ้มของ BAC เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "WFC",
+  companyName: "Wells Fargo & Company",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กธนาคารที่กำลังจัดระเบียบโต๊ะ",
+  roleTitle: "ผู้ดูแลสินเชื่อและสาขา",
+  shortDescription: "เด็กธนาคารใหญ่ที่ยังมีบทเรียนเรื่องการปรับปรุงระบบและความไว้ใจของห้อง",
+  personality: "มีฐานใหญ่ แต่ต้องรักษาวินัยและภาพลักษณ์หลังเคยโดนห้องปกครองจับตา",
+  oneLineStory: "WFC คือเด็กธนาคารที่กำลังจัดโต๊ะใหม่ให้เรียบร้อยและพยายามส่งงานให้สม่ำเสมอขึ้น",
+  strengths: [
+    "ฐานลูกค้า retail banking ใหญ่",
+    "มีบทเรียนเรื่อง efficiency และ governance",
+    "ได้รับอิทธิพลจากอัตราดอกเบี้ยและสินเชื่อ"
+  ],
+  weaknesses: [
+    "ประวัติด้าน compliance ยังเป็นบทเรียน",
+    "credit cycle กระทบได้",
+    "การฟื้นความเชื่อมั่นต้องใช้เวลา"
+  ],
+  riskTemperament: "เด็กธนาคารที่กำลังจัดระเบียบโต๊ะ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B",
+    moatStrength: "B-",
+    valuationPressure: "Low",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "JPM",
+    "BAC",
+    "COF"
+  ],
+  classmates: [
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "BLK"
+  ],
+  tags: [
+    "bank",
+    "retail banking",
+    "credit",
+    "governance"
+  ],
+  investorFit: [
+    "เรียนรู้ bank turnaround",
+    "ดู governance risk",
+    "เข้าใจรายได้จากสินเชื่อและเงินฝาก"
+  ],
+  disclaimerNote: "แฟ้มของ WFC เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "GS",
+  companyName: "The Goldman Sachs Group, Inc.",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กวาณิชธนกิจห้องแข่งขัน",
+  roleTitle: "นักจัดดีลและตลาดทุน",
+  shortDescription: "เด็กการเงินที่เก่งเรื่องดีล ตลาดทุน trading และการให้คำปรึกษาบริษัทใหญ่",
+  personality: "หัวไว แข่งขันสูง และอารมณ์ขึ้นลงตามตลาดทุนกับกิจกรรมดีล",
+  oneLineStory: "GS คือเด็กจัดดีลหน้าเวทีที่คะแนนสดใสเมื่อทั้งโรงเรียนมีงานระดมทุนและซื้อกิจการ",
+  strengths: [
+    "แบรนด์แข็งใน investment banking",
+    "trading และ markets มีบทบาทสำคัญ",
+    "ความสัมพันธ์กับลูกค้าองค์กรใหญ่"
+  ],
+  weaknesses: [
+    "ดีลและ IPO มีวัฏจักร",
+    "ตลาดผันผวนกระทบผลลัพธ์",
+    "ธุรกิจบางส่วนใช้ทุนและ regulation สูง"
+  ],
+  riskTemperament: "เด็กวาณิชธนกิจห้องแข่งขัน มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "High",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "MS",
+    "JPM",
+    "BLK"
+  ],
+  classmates: [
+    "JPM",
+    "BAC",
+    "MS",
+    "BLK",
+    "BLK"
+  ],
+  tags: [
+    "investment banking",
+    "markets",
+    "finance",
+    "deals"
+  ],
+  investorFit: [
+    "เรียนรู้ตลาดทุน",
+    "ดูวัฏจักรดีล",
+    "เข้าใจความต่างธนาคารพาณิชย์กับวาณิชธนกิจ"
+  ],
+  disclaimerNote: "แฟ้มของ GS เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "MS",
+  companyName: "Morgan Stanley",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กจัดพอร์ตและดีล",
+  roleTitle: "ผู้ดูแลความมั่งคั่งกับตลาดทุน",
+  shortDescription: "เด็กการเงินที่มีทั้ง wealth management, investment banking และ markets",
+  personality: "นิ่งกว่าอดีตบางช่วงเพราะมีฐาน wealth แต่ยังซนตามตลาดทุนได้",
+  oneLineStory: "MS คือเด็กการเงินที่ช่วยทั้งจัดดีลหน้าเวทีและดูแฟ้มทรัพย์สินให้ครูใหญ่",
+  strengths: [
+    "wealth management ช่วยเพิ่มความสม่ำเสมอ",
+    "แบรนด์แข็งในตลาดทุน",
+    "มีหลายธุรกิจการเงินให้ศึกษา"
+  ],
+  weaknesses: [
+    "ตลาดทุนซบเซากระทบดีล",
+    "asset values มีผลต่อค่าธรรมเนียม",
+    "การแข่งขัน wealth management สูง"
+  ],
+  riskTemperament: "เด็กจัดพอร์ตและดีล มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "GS",
+    "JPM",
+    "BLK"
+  ],
+  classmates: [
+    "JPM",
+    "GS",
+    "BLK",
+    "BAC",
+    "BLK"
+  ],
+  tags: [
+    "wealth",
+    "investment banking",
+    "markets",
+    "finance"
+  ],
+  investorFit: [
+    "เรียนรู้ wealth management",
+    "ดูตลาดทุนกับค่าธรรมเนียม",
+    "เทียบ GS กับ MS"
+  ],
+  disclaimerNote: "แฟ้มของ MS เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "V",
+  companyName: "Visa Inc.",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กทางผ่านการจ่ายเงิน",
+  roleTitle: "ผู้ดูแลประตูรูดบัตร",
+  shortDescription: "เด็กห้องจ่ายเงินที่ทั้งโรงเรียนต้องเดินผ่านเวลาซื้อของด้วยบัตรหรือดิจิทัล",
+  personality: "เบาเท้า กว้างมาก และได้เรียนรู้ network effect โดยไม่ต้องปล่อยกู้เองเหมือนธนาคาร",
+  oneLineStory: "V คือเด็กประตูจ่ายเงินที่เก็บสัญญาณจากการใช้จ่ายทั่วโรงเรียนโดยไม่ต้องถือสินค้าบนชั้น",
+  strengths: [
+    "เครือข่ายชำระเงินขนาดใหญ่",
+    "โมเดล asset-light เมื่อเทียบกับธนาคาร",
+    "ได้ประโยชน์จากการเปลี่ยนจากเงินสดสู่ดิจิทัล"
+  ],
+  weaknesses: [
+    "กฎค่าธรรมเนียมและ regulation สำคัญ",
+    "เศรษฐกิจอ่อนกระทบ volume ได้",
+    "การแข่งขัน payment technology เพิ่มขึ้น"
+  ],
+  riskTemperament: "เด็กทางผ่านการจ่ายเงิน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "A-",
+    moatStrength: "A",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "MA",
+    "AXP",
+    "PYPL"
+  ],
+  classmates: [
+    "MA",
+    "AXP",
+    "PYPL",
+    "JPM",
+    "BLK"
+  ],
+  tags: [
+    "payments",
+    "network",
+    "cards",
+    "fintech"
+  ],
+  investorFit: [
+    "เรียนรู้ payment network",
+    "ดู network effects",
+    "เข้าใจธุรกิจ asset-light ในการเงิน"
+  ],
+  disclaimerNote: "แฟ้มของ V เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "MA",
+  companyName: "Mastercard Incorporated",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กเครือข่ายจ่ายเงินคู่ขนาน",
+  roleTitle: "ผู้ดูแลทางผ่านบัตรอีกฝั่ง",
+  shortDescription: "เด็กจ่ายเงินที่ทำงานคล้าย Visa และช่วยให้เปรียบเทียบ payment networks ได้ชัด",
+  personality: "รวดเร็ว กว้าง และเป็นคู่เทียบสำคัญกับ V ในบทเรียนเครือข่ายชำระเงิน",
+  oneLineStory: "MA คือเด็กทางเดินจ่ายเงินอีกฝั่งที่ทำให้ห้อง finance มีคู่เทียบ network effect ที่ชัดมาก",
+  strengths: [
+    "เครือข่ายชำระเงินระดับโลก",
+    "asset-light และ margin สูง",
+    "เกี่ยวข้องกับ secular shift สู่ digital payments"
+  ],
+  weaknesses: [
+    "regulation ค่าธรรมเนียมสำคัญ",
+    "volume อ่อนไหวต่อเศรษฐกิจ",
+    "ต้องแข่งขันกับ wallet และ payment rails ใหม่"
+  ],
+  riskTemperament: "เด็กเครือข่ายจ่ายเงินคู่ขนาน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "A-",
+    moatStrength: "A",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "V",
+    "AXP",
+    "PYPL"
+  ],
+  classmates: [
+    "V",
+    "AXP",
+    "PYPL",
+    "JPM",
+    "BLK"
+  ],
+  tags: [
+    "payments",
+    "network",
+    "cards",
+    "fintech"
+  ],
+  investorFit: [
+    "เรียนรู้ payment duopoly",
+    "เทียบ V กับ MA",
+    "ดู digital payment adoption"
+  ],
+  disclaimerNote: "แฟ้มของ MA เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "AXP",
+  companyName: "American Express Company",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กบัตรพรีเมียมสายสมาชิก",
+  roleTitle: "ผู้ดูแลคลับจ่ายเงิน",
+  shortDescription: "เด็กจ่ายเงินที่มีทั้งเครือข่าย บัตร และความสัมพันธ์กับลูกค้ากำลังซื้อสูง",
+  personality: "พรีเมียม มีฐานสมาชิกเหนียว แต่ยังเจอ credit และ spending cycle ได้",
+  oneLineStory: "AXP คือเด็กบัตรสมาชิกที่รู้จักลูกค้าดีและชวนเข้าคลับสิทธิประโยชน์ในโรงเรียน",
+  strengths: [
+    "แบรนด์พรีเมียมและฐานสมาชิกแข็งแรง",
+    "มีทั้ง payment network และ lending exposure",
+    "รายได้ผูกกับ spending ของกลุ่มลูกค้ามีกำลังซื้อ"
+  ],
+  weaknesses: [
+    "credit cycle กระทบได้",
+    "เศรษฐกิจชะลอทำให้ spending อ่อนลง",
+    "การแข่งขันบัตร rewards สูง"
+  ],
+  riskTemperament: "เด็กบัตรพรีเมียมสายสมาชิก มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "V",
+    "MA",
+    "COF"
+  ],
+  classmates: [
+    "V",
+    "MA",
+    "JPM",
+    "COF",
+    "BLK"
+  ],
+  tags: [
+    "cards",
+    "payments",
+    "premium",
+    "credit"
+  ],
+  investorFit: [
+    "เรียนรู้ closed-loop card model",
+    "ดู consumer credit",
+    "เทียบ payment network กับ lending"
+  ],
+  disclaimerNote: "แฟ้มของ AXP เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "PYPL",
+  companyName: "PayPal Holdings, Inc.",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กกระเป๋าเงินออนไลน์ที่กำลังหาที่นั่งใหม่",
+  roleTitle: "ผู้ดูแลปุ่มจ่ายเงินดิจิทัล",
+  shortDescription: "เด็ก payment รุ่นบุกเบิกที่ต้องพิสูจน์บทบาทใหม่เมื่อเพื่อน wallet และ platform เยอะขึ้น",
+  personality: "ยังมีฐานผู้ใช้ใหญ่ แต่กำลังเรียนบทการแข่งขันและการจัดระเบียบตัวเองใหม่",
+  oneLineStory: "PYPL คือเด็กกระเป๋าเงินออนไลน์ที่เคยเด่นมาก และตอนนี้ต้องทำให้เพื่อนเห็นว่ายังจำเป็นในห้องจ่ายเงิน",
+  strengths: [
+    "ฐานผู้ใช้และ merchant กว้าง",
+    "แบรนด์คุ้นเคยใน online checkout",
+    "มีบทเรียนเรื่อง fintech competition"
+  ],
+  weaknesses: [
+    "การแข่งขัน wallet และ payment button สูง",
+    "การเติบโตต้องพิสูจน์ใหม่",
+    "margin และ brand relevance ถูกจับตา"
+  ],
+  riskTemperament: "เด็กกระเป๋าเงินออนไลน์ที่กำลังหาที่นั่งใหม่ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B-",
+    moatStrength: "B-",
+    valuationPressure: "Low",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "V",
+    "MA",
+    "SOFI"
+  ],
+  classmates: [
+    "V",
+    "MA",
+    "AXP",
+    "SHOP",
+    "SOFI"
+  ],
+  tags: [
+    "payments",
+    "fintech",
+    "wallet",
+    "checkout"
+  ],
+  investorFit: [
+    "เรียนรู้ fintech competition",
+    "ดู platform relevance",
+    "เข้าใจธุรกิจที่กำลัง reposition"
+  ],
+  disclaimerNote: "แฟ้มของ PYPL เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "COF",
+  companyName: "Capital One Financial Corporation",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กบัตรเครดิตสายข้อมูล",
+  roleTitle: "ผู้ดูแลสินเชื่อผู้บริโภค",
+  shortDescription: "เด็กการเงินที่ใช้ข้อมูลกับบัตรเครดิตและสินเชื่อผู้บริโภคเป็นวิชาหลัก",
+  personality: "วิเคราะห์เก่ง แต่ซนตาม credit cycle และสุขภาพผู้บริโภคได้ชัด",
+  oneLineStory: "COF คือเด็กบัตรเครดิตที่อ่านพฤติกรรมผู้บริโภคผ่านคะแนนและการจ่ายบิล",
+  strengths: [
+    "เชี่ยวชาญบัตรเครดิตและ consumer lending",
+    "ใช้ข้อมูลในการบริหารความเสี่ยง",
+    "เหมาะกับบทเรียน credit cycle"
+  ],
+  weaknesses: [
+    "เศรษฐกิจอ่อนทำให้ delinquency สูงขึ้นได้",
+    "ต้นทุนเงินทุนและดอกเบี้ยสำคัญ",
+    "การแข่งขันบัตรและ rewards สูง"
+  ],
+  riskTemperament: "เด็กบัตรเครดิตสายข้อมูล มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "B-",
+    moatStrength: "B-",
+    valuationPressure: "Low",
+    volatility: "High",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "AXP",
+    "BAC",
+    "JPM"
+  ],
+  classmates: [
+    "JPM",
+    "BAC",
+    "WFC",
+    "AXP",
+    "BLK"
+  ],
+  tags: [
+    "credit cards",
+    "consumer credit",
+    "bank",
+    "risk"
+  ],
+  investorFit: [
+    "เรียนรู้ consumer credit",
+    "ดู delinquency cycle",
+    "เข้าใจข้อมูลกับการปล่อยสินเชื่อ"
+  ],
+  disclaimerNote: "แฟ้มของ COF เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "SOFI",
+  companyName: "SoFi Technologies, Inc.",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กฟินเทคสายมหาวิทยาลัย",
+  roleTitle: "นักทดลองธนาคารดิจิทัล",
+  shortDescription: "เด็ก fintech ที่รวมสินเชื่อ บัญชี การลงทุน และแพลตฟอร์มเทคการเงินไว้ในห้องเดียว",
+  personality: "พลังสูง โตไว และยังต้องพิสูจน์ว่าวินัยการเงินจะทันความทะเยอทะยาน",
+  oneLineStory: "SOFI คือเด็กธนาคารดิจิทัลที่พยายามทำให้บริการการเงินทั้งชุดอยู่ในแอปเดียว",
+  strengths: [
+    "แบรนด์ fintech กับลูกค้ารุ่นใหม่",
+    "หลายผลิตภัณฑ์ในระบบเดียว",
+    "มีบทเรียนเรื่อง bank charter และ lending"
+  ],
+  weaknesses: [
+    "credit risk และ funding cost สำคัญ",
+    "ความคาดหวัง growth สูง",
+    "การแข่งขัน fintech และธนาคารดั้งเดิมมาก"
+  ],
+  riskTemperament: "เด็กฟินเทคสายมหาวิทยาลัย มีระดับความซน ซนเทอร์โบ ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Very High",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "C+",
+    moatStrength: "C+",
+    valuationPressure: "High",
+    volatility: "Very High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "PYPL",
+    "COF",
+    "JPM"
+  ],
+  classmates: [
+    "PYPL",
+    "COF",
+    "AXP",
+    "INTU",
+    "BLK"
+  ],
+  tags: [
+    "fintech",
+    "lending",
+    "banking",
+    "growth"
+  ],
+  investorFit: [
+    "เรียนรู้ digital banking",
+    "ดู credit risk ใน fintech",
+    "เข้าใจ growth กับ profitability path"
+  ],
+  disclaimerNote: "แฟ้มของ SOFI เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "BLK",
+  companyName: "BlackRock, Inc.",
+  assetType: "stock",
+  classroom: "Finance & Payments Hall",
+  sector: "Financials",
+  archetype: "เด็กผู้จัดห้องกองทุน",
+  roleTitle: "ผู้ดูแลชั้น ETF และสินทรัพย์",
+  shortDescription: "เด็กการเงินที่ดูแลเงินจำนวนมากผ่านกองทุน ETF และระบบจัดการสินทรัพย์",
+  personality: "นิ่ง มี scale สูง และเป็นตัวอย่างธุรกิจค่าธรรมเนียมที่ผูกกับตลาดทั้งโรงเรียน",
+  oneLineStory: "BLK คือเด็กที่จัดชั้นกองทุนให้ทั้งโรงเรียนเลือกอ่าน ตั้งแต่ ETF ไปจนถึงพอร์ตขนาดใหญ่",
+  strengths: [
+    "ขนาดสินทรัพย์ภายใต้การจัดการใหญ่",
+    "iShares เป็นแพลตฟอร์ม ETF สำคัญ",
+    "ค่าธรรมเนียมผูกกับตลาดและ flows"
+  ],
+  weaknesses: [
+    "ตลาดลงกระทบสินทรัพย์และค่าธรรมเนียม",
+    "fee pressure ใน asset management",
+    "กฎระเบียบและภาพลักษณ์สาธารณะสำคัญ"
+  ],
+  riskTemperament: "เด็กผู้จัดห้องกองทุน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "MS",
+    "GS",
+    "JPM"
+  ],
+  classmates: [
+    "JPM",
+    "MS",
+    "GS",
+    "SPY",
+    "VTI"
+  ],
+  tags: [
+    "asset management",
+    "ETF",
+    "fees",
+    "finance"
+  ],
+  investorFit: [
+    "เรียนรู้ asset management",
+    "ดู ETF platform",
+    "เข้าใจรายได้ค่าธรรมเนียมตามตลาด"
+  ],
+  disclaimerNote: "แฟ้มของ BLK เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "WMT",
+  companyName: "Walmart Inc.",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Staples",
+  archetype: "เด็กสหกรณ์โรงเรียนตัวใหญ่",
+  roleTitle: "ผู้ดูแลร้านประหยัด",
+  shortDescription: "เด็กค้าปลีกขนาดใหญ่ที่ขายของจำเป็นและของใช้ประจำวันให้ทั้งโรงเรียน",
+  personality: "ขยัน ราคาประหยัด และค่อนข้างทนเวลาบรรยากาศผู้บริโภคเปลี่ยน",
+  oneLineStory: "WMT คือสหกรณ์โรงเรียนขนาดใหญ่ที่เพื่อนแวะซื้อของใช้พื้นฐานแทบทุกสัปดาห์",
+  strengths: [
+    "ขนาดร้านค้าและ supply chain ใหญ่",
+    "ขายสินค้าจำเป็นจำนวนมาก",
+    "e-commerce และ grocery ช่วยเพิ่มบทเรียนใหม่"
+  ],
+  weaknesses: [
+    "margin ค้าปลีกบาง",
+    "การแข่งขันราคาสูง",
+    "ค่าแรงและ logistics กระทบได้"
+  ],
+  riskTemperament: "เด็กสหกรณ์โรงเรียนตัวใหญ่ มีระดับความซน ซนเบา ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Low",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "A-",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Low",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "TGT",
+    "AMZN",
+    "TGT"
+  ],
+  classmates: [
+    "TGT",
+    "HD",
+    "LOW",
+    "MCD",
+    "KO"
+  ],
+  tags: [
+    "retail",
+    "grocery",
+    "defensive",
+    "scale"
+  ],
+  investorFit: [
+    "เรียนรู้ค้าปลีกขนาดใหญ่",
+    "ดู supply chain",
+    "เข้าใจ defensive consumer behavior"
+  ],
+  disclaimerNote: "แฟ้มของ WMT เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "TGT",
+  companyName: "Target Corporation",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กสหกรณ์สายดีไซน์",
+  roleTitle: "ผู้จัดร้านค้าปลีกมีสไตล์",
+  shortDescription: "เด็กค้าปลีกที่ขายของใช้ในบ้าน เสื้อผ้า และของจำเป็นแบบมีภาพลักษณ์ชัด",
+  personality: "เป็นมิตร มีแบรนด์ร้านแข็ง แต่ซนตามสินค้าคงคลังและกำลังซื้อผู้บริโภค",
+  oneLineStory: "TGT คือร้านโรงเรียนที่จัดชั้นสวย แต่ต้องบริหารของคงคลังและโปรโมชั่นให้แม่น",
+  strengths: [
+    "แบรนด์ค้าปลีกเป็นที่รู้จัก",
+    "private label และ store experience มีบทบาท",
+    "มีบทเรียนเรื่อง inventory management"
+  ],
+  weaknesses: [
+    "สินค้าฟุ่มเฟือยบางส่วนอ่อนไหวต่อเศรษฐกิจ",
+    "การแข่งขันกับ WMT และ AMZN สูง",
+    "inventory miss กระทบ margin ได้"
+  ],
+  riskTemperament: "เด็กสหกรณ์สายดีไซน์ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B",
+    moatStrength: "B",
+    valuationPressure: "Low",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "WMT",
+    "AMZN",
+    "HD"
+  ],
+  classmates: [
+    "WMT",
+    "HD",
+    "LOW",
+    "MCD",
+    "KO"
+  ],
+  tags: [
+    "retail",
+    "consumer",
+    "inventory",
+    "brand"
+  ],
+  investorFit: [
+    "เรียนรู้ discretionary retail",
+    "ดู inventory cycle",
+    "เทียบค้าปลีก defensive กับ discretionary"
+  ],
+  disclaimerNote: "แฟ้มของ TGT เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "HD",
+  companyName: "The Home Depot, Inc.",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กช่างบ้านประจำโรงเรียน",
+  roleTitle: "ผู้ดูแลอุปกรณ์ซ่อมแซม",
+  shortDescription: "เด็กค้าปลีกที่ขายเครื่องมือ วัสดุ และของแต่งบ้านให้เพื่อนสาย DIY กับช่างมืออาชีพ",
+  personality: "แข็งแรง มีนิสัยผูกกับบ้านและดอกเบี้ย แต่แบรนด์ร้านแน่นมาก",
+  oneLineStory: "HD คือเด็กช่างที่เปิดห้องเก็บเครื่องมือ ทุกคนมาหาเวลาบ้านต้องซ่อม",
+  strengths: [
+    "แบรนด์แข็งใน home improvement",
+    "ลูกค้าทั้ง DIY และ professional",
+    "scale และ supply chain ช่วยสร้าง moat"
+  ],
+  weaknesses: [
+    "ดอกเบี้ยและ housing cycle กระทบ",
+    "โครงการบ้านชะลอทำให้ยอดขายอ่อน",
+    "การแข่งขันกับ LOW และร้านเฉพาะทาง"
+  ],
+  riskTemperament: "เด็กช่างบ้านประจำโรงเรียน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "LOW",
+    "WMT",
+    "TGT"
+  ],
+  classmates: [
+    "LOW",
+    "WMT",
+    "TGT",
+    "MCD",
+    "MCD"
+  ],
+  tags: [
+    "home improvement",
+    "retail",
+    "housing",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ home improvement retail",
+    "ดู housing cycle",
+    "เข้าใจ brand moat ในร้านค้าใหญ่"
+  ],
+  disclaimerNote: "แฟ้มของ HD เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "LOW",
+  companyName: "Lowe's Companies, Inc.",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กช่างบ้านโต๊ะข้างกัน",
+  roleTitle: "ผู้ช่วยซ่อมบ้านอีกคน",
+  shortDescription: "เด็กค้าปลีกบ้านและเครื่องมือที่เป็นคู่เทียบสำคัญกับ HD",
+  personality: "นิ่งขึ้น มีพื้นที่ให้ปรับปรุง และช่วยให้เรียนรู้การแข่งขันแบบร้านใกล้เคียง",
+  oneLineStory: "LOW คือเด็กช่างบ้านอีกโต๊ะที่ทำให้ห้อง home improvement มีคู่เทียบชัดเจน",
+  strengths: [
+    "แบรนด์ใหญ่ใน home improvement",
+    "มีโอกาสปรับ efficiency และ professional customer",
+    "นิสัย dividend น่าสังเกต"
+  ],
+  weaknesses: [
+    "housing cycle และดอกเบี้ยมีผล",
+    "ต้องแข่งกับ HD ที่แข็งแรงมาก",
+    "consumer project อาจชะลอในเศรษฐกิจอ่อน"
+  ],
+  riskTemperament: "เด็กช่างบ้านโต๊ะข้างกัน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "HD",
+    "WMT",
+    "TGT"
+  ],
+  classmates: [
+    "HD",
+    "WMT",
+    "TGT",
+    "MCD",
+    "MCD"
+  ],
+  tags: [
+    "home improvement",
+    "retail",
+    "housing",
+    "dividend"
+  ],
+  investorFit: [
+    "เทียบ LOW กับ HD",
+    "เรียนรู้ operational improvement",
+    "ดูผลของ housing cycle"
+  ],
+  disclaimerNote: "แฟ้มของ LOW เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "MCD",
+  companyName: "McDonald's Corporation",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กโรงอาหารระดับโลก",
+  roleTitle: "ผู้ดูแลเมนูเร็วและคุ้นเคย",
+  shortDescription: "เด็กแบรนด์อาหารที่มีร้านทั่วโลกและระบบ franchise เป็นสมุดหลัก",
+  personality: "คุ้นหน้า วินัยสูง และสอนเรื่องแบรนด์ เมนู ราคา และระบบแฟรนไชส์ได้ดี",
+  oneLineStory: "MCD คือเด็กโรงอาหารที่เพื่อนทั่วโลกจำเมนูได้ แม้แต่ตอนรีบเข้าคาบ",
+  strengths: [
+    "แบรนด์ global แข็งแรง",
+    "franchise model ช่วยให้ธุรกิจเบากว่าร้านถือเองทั้งหมด",
+    "pricing power และ convenience เป็นบทเรียนสำคัญ"
+  ],
+  weaknesses: [
+    "ต้นทุนอาหารและค่าแรงกดดันได้",
+    "ผู้บริโภคอ่อนไหวต่อราคา",
+    "ภาพลักษณ์สุขภาพและการแข่งขันอาหารเร็วมีผล"
+  ],
+  riskTemperament: "เด็กโรงอาหารระดับโลก มีระดับความซน ซนเบา ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Low",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Low",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "SBUX",
+    "CMG",
+    "SBUX"
+  ],
+  classmates: [
+    "SBUX",
+    "CMG",
+    "KO",
+    "PEP",
+    "MCD"
+  ],
+  tags: [
+    "restaurant",
+    "brand",
+    "franchise",
+    "consumer"
+  ],
+  investorFit: [
+    "เรียนรู้ franchise model",
+    "ดู brand consistency",
+    "เข้าใจ pricing power ในอาหาร"
+  ],
+  disclaimerNote: "แฟ้มของ MCD เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "SBUX",
+  companyName: "Starbucks Corporation",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กคาเฟ่หน้าโรงเรียน",
+  roleTitle: "ผู้ดูแลแก้วกาแฟประจำคาบ",
+  shortDescription: "เด็กแบรนด์กาแฟที่ขายทั้งเครื่องดื่ม ประสบการณ์ร้าน และ loyalty program",
+  personality: "อบอุ่น มีแฟนประจำ แต่ต้องระวัง traffic ร้าน ค่าแรง และการแข่งขันเครื่องดื่ม",
+  oneLineStory: "SBUX คือเด็กคาเฟ่ที่ทำให้เพื่อนแวะก่อนเข้าเรียน แต่ต้องรักษาบรรยากาศร้านให้ดีเสมอ",
+  strengths: [
+    "แบรนด์กาแฟระดับโลก",
+    "loyalty program และ digital ordering สำคัญ",
+    "มีโอกาสเติบโตต่างประเทศบางตลาด"
+  ],
+  weaknesses: [
+    "traffic ร้านแกว่งได้",
+    "ค่าแรงและต้นทุนวัตถุดิบกดดัน",
+    "การแข่งขันเครื่องดื่มและร้านท้องถิ่นสูง"
+  ],
+  riskTemperament: "เด็กคาเฟ่หน้าโรงเรียน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "MCD",
+    "CMG",
+    "KO"
+  ],
+  classmates: [
+    "MCD",
+    "CMG",
+    "KO",
+    "PEP",
+    "MCD"
+  ],
+  tags: [
+    "coffee",
+    "brand",
+    "restaurant",
+    "loyalty"
+  ],
+  investorFit: [
+    "เรียนรู้ consumer brand",
+    "ดู same-store sales",
+    "เข้าใจ loyalty program ในร้านอาหาร"
+  ],
+  disclaimerNote: "แฟ้มของ SBUX เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "NKE",
+  companyName: "NIKE, Inc.",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กนักกีฬาสายแบรนด์",
+  roleTitle: "กัปตันรองเท้าและเสื้อกีฬา",
+  shortDescription: "เด็กแบรนด์กีฬาที่มีโลโก้ดังและเรื่องเล่าด้าน athlete culture",
+  personality: "เท่ มีประวัติแข็งแรง แต่ต้องซ้อมหนักเมื่อ fashion cycle และการแข่งขันเปลี่ยน",
+  oneLineStory: "NKE คือเด็กนักกีฬาที่ทั้งโรงเรียนจำโลโก้ได้ แต่ยังต้องวิ่งให้ทันรสนิยมรุ่นใหม่",
+  strengths: [
+    "แบรนด์ global แข็งแรง",
+    "ความสัมพันธ์กับนักกีฬาและวัฒนธรรมกีฬา",
+    "direct-to-consumer ให้บทเรียนช่องทางขาย"
+  ],
+  weaknesses: [
+    "การแข่งขันจากแบรนด์ใหม่เพิ่มขึ้น",
+    "fashion cycle เปลี่ยนเร็ว",
+    "inventory และ wholesale strategy กระทบได้"
+  ],
+  riskTemperament: "เด็กนักกีฬาสายแบรนด์ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "LULU",
+    "SBUX",
+    "DIS"
+  ],
+  classmates: [
+    "LULU",
+    "SBUX",
+    "MCD",
+    "DIS",
+    "MCD"
+  ],
+  tags: [
+    "brand",
+    "sportswear",
+    "consumer",
+    "DTC"
+  ],
+  investorFit: [
+    "เรียนรู้ brand equity",
+    "ดู consumer taste cycle",
+    "เข้าใจช่องทางขาย DTC กับ wholesale"
+  ],
+  disclaimerNote: "แฟ้มของ NKE เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "LULU",
+  companyName: "lululemon athletica inc.",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กโยคะพรีเมียม",
+  roleTitle: "ผู้ดูแลชุดออกกำลังกายมีสไตล์",
+  shortDescription: "เด็กแบรนด์ activewear ที่เริ่มจากโยคะและขยายเป็น lifestyle fitness",
+  personality: "พรีเมียม ใกล้ชิดลูกค้า และซนตามความคาดหวังของแบรนด์โตเร็ว",
+  oneLineStory: "LULU คือเด็กโยคะที่ทำให้ชุดออกกำลังกายกลายเป็น uniform สาย lifestyle",
+  strengths: [
+    "แบรนด์ premium activewear แข็งแรง",
+    "community และ store experience ช่วยสร้างความภักดี",
+    "มีบทเรียนเรื่อง international expansion"
+  ],
+  weaknesses: [
+    "ความคาดหวัง growth สูง",
+    "การแข่งขัน apparel สูง",
+    "รสนิยมผู้บริโภคเปลี่ยนได้"
+  ],
+  riskTemperament: "เด็กโยคะพรีเมียม มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "High",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "NKE",
+    "SBUX",
+    "TGT"
+  ],
+  classmates: [
+    "NKE",
+    "SBUX",
+    "MCD",
+    "DIS",
+    "MCD"
+  ],
+  tags: [
+    "brand",
+    "apparel",
+    "fitness",
+    "consumer"
+  ],
+  investorFit: [
+    "เรียนรู้ premium brand growth",
+    "ดู consumer community",
+    "เข้าใจความเสี่ยง fashion cycle"
+  ],
+  disclaimerNote: "แฟ้มของ LULU เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "DIS",
+  companyName: "The Walt Disney Company",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Communication Services",
+  archetype: "เด็กเล่านิทานและสวนสนุก",
+  roleTitle: "ผู้ดูแลห้องบันเทิงครอบครัว",
+  shortDescription: "เด็กแบรนด์บันเทิงที่มีตัวละคร สวนสนุก หนัง กีฬา และสตรีมมิงอยู่ในแฟ้มเดียว",
+  personality: "มีเวทมนตร์แบรนด์สูง แต่กำลังจัดสมดุลระหว่างคอนเทนต์ สตรีมมิง และสวนสนุก",
+  oneLineStory: "DIS คือเด็กเล่านิทานที่มีทั้งโรงละคร สนามกีฬา และสวนสนุกในกระเป๋าเดียว",
+  strengths: [
+    "แบรนด์และ IP แข็งแรงมาก",
+    "สวนสนุกสร้างประสบการณ์เฉพาะตัว",
+    "มีหลายช่องทาง monetization จากตัวละคร"
+  ],
+  weaknesses: [
+    "streaming ใช้เงินและแข่งขันสูง",
+    "media legacy ถูก disruption",
+    "สวนสนุกอ่อนไหวต่อผู้บริโภคและเศรษฐกิจ"
+  ],
+  riskTemperament: "เด็กเล่านิทานและสวนสนุก มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "B",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "NFLX",
+    "NFLX",
+    "AMZN"
+  ],
+  classmates: [
+    "NFLX",
+    "META",
+    "NKE",
+    "MCD",
+    "MCD"
+  ],
+  tags: [
+    "media",
+    "parks",
+    "streaming",
+    "brand"
+  ],
+  investorFit: [
+    "เรียนรู้ IP monetization",
+    "ดู streaming transition",
+    "เข้าใจธุรกิจสวนสนุกและสื่อ"
+  ],
+  disclaimerNote: "แฟ้มของ DIS เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "CMG",
+  companyName: "Chipotle Mexican Grill, Inc.",
+  assetType: "stock",
+  classroom: "Consumer & Brand Hall",
+  sector: "Consumer Discretionary",
+  archetype: "เด็กโรงอาหารสายเร็วพรีเมียม",
+  roleTitle: "ผู้จัดแถว burrito",
+  shortDescription: "เด็กเรสเตอรองต์ที่ขายอาหารเร็วแบบมีภาพลักษณ์คุณภาพและระบบร้านที่ทำซ้ำได้",
+  personality: "คล่องตัว มี pricing power แต่ความคาดหวังสูงและต้นทุนอาหารต้องคุมดี",
+  oneLineStory: "CMG คือเด็กโรงอาหารที่ต่อแถวเร็ว ทำเมนูซ้ำเก่ง และยังดูพรีเมียมกว่าร้านเร็วทั่วไป",
+  strengths: [
+    "แบรนด์ fast-casual แข็งแรง",
+    "unit economics และ store expansion เป็นบทเรียนสำคัญ",
+    "digital ordering ช่วยเพิ่มความสะดวก"
+  ],
+  weaknesses: [
+    "valuation pressure สูงได้",
+    "ต้นทุนอาหารและแรงงานมีผล",
+    "ความคาดหวัง same-store sales กดดัน"
+  ],
+  riskTemperament: "เด็กโรงอาหารสายเร็วพรีเมียม มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "High",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "MCD",
+    "SBUX",
+    "SBUX"
+  ],
+  classmates: [
+    "MCD",
+    "SBUX",
+    "NKE",
+    "LULU",
+    "MCD"
+  ],
+  tags: [
+    "restaurant",
+    "brand",
+    "growth",
+    "consumer"
+  ],
+  investorFit: [
+    "เรียนรู้ fast-casual model",
+    "ดู unit economics",
+    "เข้าใจ pricing power กับต้นทุน"
+  ],
+  disclaimerNote: "แฟ้มของ CMG เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "KO",
+  companyName: "The Coca-Cola Company",
+  assetType: "stock",
+  classroom: "Dividend Club",
+  sector: "Consumer Staples",
+  archetype: "เด็กน้ำอัดลมคลาสสิก",
+  roleTitle: "ผู้แจกเครื่องดื่มประจำโรงอาหาร",
+  shortDescription: "เด็กแบรนด์เครื่องดื่มที่อยู่ในโรงอาหารมานานและมีสูตรจำง่ายทั่วโลก",
+  personality: "นิ่ง เป็นมิตรกับชมรมปันผล และใช้สอนเรื่องแบรนด์กับ distribution ได้ดี",
+  oneLineStory: "KO คือเด็กเครื่องดื่มคลาสสิกที่เพื่อนจำรสชาติและโลโก้ได้ก่อนเปิดตู้เย็น",
+  strengths: [
+    "แบรนด์ global แข็งแรง",
+    "distribution network กว้าง",
+    "นิสัย cash flow และ dividend ชัด"
+  ],
+  weaknesses: [
+    "การเติบโตไม่เร็วเท่าห้องเทค",
+    "สุขภาพและน้ำตาลเป็นประเด็น",
+    "ค่าเงินและตลาดโลกมีผล"
+  ],
+  riskTemperament: "เด็กน้ำอัดลมคลาสสิก มีระดับความซน ซนเบา ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Low",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Low",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "PEP",
+    "SBUX",
+    "MCD"
+  ],
+  classmates: [
+    "PEP",
+    "PG",
+    "JNJ",
+    "MCD",
+    "SCHD"
+  ],
+  tags: [
+    "beverages",
+    "brand",
+    "dividend",
+    "defensive"
+  ],
+  investorFit: [
+    "เรียนรู้ consumer staples",
+    "ดู brand durability",
+    "เข้าใจธุรกิจปันผลแบบนิ่งขึ้น"
+  ],
+  disclaimerNote: "แฟ้มของ KO เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "PEP",
+  companyName: "PepsiCo, Inc.",
+  assetType: "stock",
+  classroom: "Dividend Club",
+  sector: "Consumer Staples",
+  archetype: "เด็กขนมและเครื่องดื่ม",
+  roleTitle: "ผู้ดูแลโต๊ะ snack",
+  shortDescription: "เด็ก consumer staples ที่มีทั้งเครื่องดื่ม ขนม และแบรนด์ในตู้โรงอาหาร",
+  personality: "กว้างกว่าแค่น้ำอัดลม มีนิสัย defensive แต่ยังต้องดูต้นทุนและสุขภาพผู้บริโภค",
+  oneLineStory: "PEP คือเด็กที่ถือทั้งแก้วน้ำและถุงขนม ทำให้โต๊ะ snack ของโรงเรียนไม่เคยว่าง",
+  strengths: [
+    "portfolio เครื่องดื่มและขนมกว้าง",
+    "แบรนด์ global หลายตัว",
+    "distribution และ pricing power น่าสังเกต"
+  ],
+  weaknesses: [
+    "ต้นทุนวัตถุดิบกดดัน margin",
+    "ความกังวลด้านสุขภาพมีผล",
+    "การเติบโตโดยรวมค่อนข้างนิ่ง"
+  ],
+  riskTemperament: "เด็กขนมและเครื่องดื่ม มีระดับความซน ซนเบา ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Low",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Low",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "KO",
+    "PG",
+    "MCD"
+  ],
+  classmates: [
+    "KO",
+    "PG",
+    "JNJ",
+    "MCD",
+    "SCHD"
+  ],
+  tags: [
+    "snacks",
+    "beverages",
+    "brand",
+    "dividend"
+  ],
+  investorFit: [
+    "เทียบ KO กับ PEP",
+    "เรียนรู้ staples portfolio",
+    "ดู pricing power ในสินค้าอุปโภคบริโภค"
+  ],
+  disclaimerNote: "แฟ้มของ PEP เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "PG",
+  companyName: "Procter & Gamble Company",
+  assetType: "stock",
+  classroom: "Dividend Club",
+  sector: "Consumer Staples",
+  archetype: "เด็กของใช้ประจำบ้าน",
+  roleTitle: "ผู้ดูแลตู้สบู่และแปรงสีฟัน",
+  shortDescription: "เด็กสินค้าอุปโภคบริโภคที่อยู่ในห้องน้ำ ห้องครัว และบ้านของเพื่อนจำนวนมาก",
+  personality: "สุขุม มีแบรนด์จำเป็น และเหมาะกับบทเรียน defensive business",
+  oneLineStory: "PG คือเด็กของใช้ประจำวันที่เพื่อนอาจไม่ตื่นเต้น แต่ต้องหยิบใช้แทบทุกวัน",
+  strengths: [
+    "แบรนด์ household staples แข็งแรง",
+    "pricing และ scale สำคัญ",
+    "นิสัย dividend และ cash flow สม่ำเสมอ"
+  ],
+  weaknesses: [
+    "การเติบโตช้า",
+    "ต้นทุนวัตถุดิบและค่าเงินมีผล",
+    "private label แข่งขันในบางหมวด"
+  ],
+  riskTemperament: "เด็กของใช้ประจำบ้าน มีระดับความซน ซนเบา ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Low",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "A",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Low",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "KO",
+    "PEP",
+    "JNJ"
+  ],
+  classmates: [
+    "KO",
+    "PEP",
+    "JNJ",
+    "WMT",
+    "SCHD"
+  ],
+  tags: [
+    "staples",
+    "household",
+    "brand",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ defensive brands",
+    "ดู pricing power",
+    "เข้าใจสินค้าใช้ประจำกับตลาด"
+  ],
+  disclaimerNote: "แฟ้มของ PG เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "JNJ",
+  companyName: "Johnson & Johnson",
+  assetType: "stock",
+  classroom: "Healthcare Hall",
+  sector: "Healthcare",
+  archetype: "เด็กห้องพยาบาลรุ่นใหญ่",
+  roleTitle: "ผู้ดูแลสุขภาพหลายแผนก",
+  shortDescription: "เด็ก healthcare ขนาดใหญ่ที่มีทั้งยาและอุปกรณ์การแพทย์เป็นบทเรียนหลัก",
+  personality: "นิ่ง มีประวัติยาว และเหมาะกับการเรียนรู้ healthcare แบบกระจายหลายแผนก",
+  oneLineStory: "JNJ คือรุ่นพี่ห้องพยาบาลที่ถือแฟ้มยาและอุปกรณ์การแพทย์หลายเล่มพร้อมกัน",
+  strengths: [
+    "ธุรกิจ healthcare ขนาดใหญ่และหลากหลาย",
+    "แบรนด์และความสัมพันธ์ทางการแพทย์ยาวนาน",
+    "นิสัย dividend defensive"
+  ],
+  weaknesses: [
+    "คดีและกฎระเบียบมีผล",
+    "pipeline ยาต้องเติมต่อเนื่อง",
+    "การเติบโตไม่หวือหวา"
+  ],
+  riskTemperament: "เด็กห้องพยาบาลรุ่นใหญ่ มีระดับความซน ซนเบา ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Low",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Low",
+    volatility: "Low",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "PFE",
+    "MRK",
+    "ABBV"
+  ],
+  classmates: [
+    "PFE",
+    "MRK",
+    "ABBV",
+    "UNH",
+    "UNH"
+  ],
+  tags: [
+    "healthcare",
+    "pharma",
+    "medical devices",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ healthcare conglomerate",
+    "ดูความเสี่ยงกฎระเบียบ",
+    "เข้าใจ defensive healthcare"
+  ],
+  disclaimerNote: "แฟ้มของ JNJ เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "UNH",
+  companyName: "UnitedHealth Group Incorporated",
+  assetType: "stock",
+  classroom: "Healthcare Hall",
+  sector: "Healthcare",
+  archetype: "เด็กจัดตารางห้องพยาบาล",
+  roleTitle: "ผู้ดูแลระบบประกันสุขภาพ",
+  shortDescription: "เด็ก healthcare ที่เชื่อมประกัน สุขภาพ และบริการข้อมูลเข้าด้วยกัน",
+  personality: "ใหญ่ เป็นระบบ และสอนเรื่อง healthcare payment กับ scale ได้ดีมาก",
+  oneLineStory: "UNH คือเด็กที่จัดคิวห้องพยาบาลและสมุดประกันให้ทั้งโรงเรียนเดินเป็นระบบ",
+  strengths: [
+    "scale ใหญ่ใน health insurance",
+    "Optum เพิ่มบทเรียนบริการและข้อมูล",
+    "ความสัมพันธ์ในระบบ healthcare กว้าง"
+  ],
+  weaknesses: [
+    "กฎและนโยบายสุขภาพสำคัญมาก",
+    "medical cost trend กระทบ margin",
+    "ขนาดใหญ่ทำให้ถูกจับตา"
+  ],
+  riskTemperament: "เด็กจัดตารางห้องพยาบาล มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "A-",
+    moatStrength: "A-",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "JNJ",
+    "UNH",
+    "PFE"
+  ],
+  classmates: [
+    "JNJ",
+    "MRK",
+    "ABBV",
+    "TMO",
+    "UNH"
+  ],
+  tags: [
+    "health insurance",
+    "healthcare",
+    "services",
+    "data"
+  ],
+  investorFit: [
+    "เรียนรู้ healthcare payment",
+    "ดู scale ในบริการสุขภาพ",
+    "เข้าใจ policy risk"
+  ],
+  disclaimerNote: "แฟ้มของ UNH เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "ABBV",
+  companyName: "AbbVie Inc.",
+  assetType: "stock",
+  classroom: "Healthcare Hall",
+  sector: "Healthcare",
+  archetype: "เด็กยาสายสิทธิบัตร",
+  roleTitle: "ผู้ดูแลตู้ยาพิเศษ",
+  shortDescription: "เด็ก pharma ที่มีบทเรียนเรื่องยาหลัก สิทธิบัตร และการสร้างยารุ่นถัดไป",
+  personality: "นิ่งกว่าหุ้นโตเร็ว แต่ต้องจัดการการหมดสิทธิบัตรและ pipeline ให้ดี",
+  oneLineStory: "ABBV คือเด็กตู้ยาพิเศษที่ต้องส่งต่อจากยารุ่นเก่าไปยังยารุ่นใหม่ให้เนียน",
+  strengths: [
+    "cash flow จากยา specialty",
+    "นิสัย dividend สูง",
+    "มีบทเรียนเรื่อง patent cycle"
+  ],
+  weaknesses: [
+    "การหมดสิทธิบัตรกดดันได้",
+    "pipeline ยาต้องพิสูจน์ต่อเนื่อง",
+    "กฎราคาและ reimbursement สำคัญ"
+  ],
+  riskTemperament: "เด็กยาสายสิทธิบัตร มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B+",
+    moatStrength: "B",
+    valuationPressure: "Low",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "PFE",
+    "MRK",
+    "JNJ"
+  ],
+  classmates: [
+    "JNJ",
+    "MRK",
+    "PFE",
+    "UNH",
+    "UNH"
+  ],
+  tags: [
+    "pharma",
+    "patent",
+    "dividend",
+    "healthcare"
+  ],
+  investorFit: [
+    "เรียนรู้ patent cliff",
+    "ดู pharma pipeline",
+    "เข้าใจ cash flow กับ dividend"
+  ],
+  disclaimerNote: "แฟ้มของ ABBV เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "MRK",
+  companyName: "Merck & Co., Inc.",
+  assetType: "stock",
+  classroom: "Healthcare Hall",
+  sector: "Healthcare",
+  archetype: "เด็กวิจัยยาห้องพยาบาล",
+  roleTitle: "นักทดลองยาสำคัญ",
+  shortDescription: "เด็ก pharma ที่มีบทเรียนเรื่องยาหลัก งานวิจัย และ pipeline ทางการแพทย์",
+  personality: "จริงจัง วิจัยหนัก และอารมณ์ขึ้นกับความสำเร็จของยาใหม่กับสิทธิบัตร",
+  oneLineStory: "MRK คือเด็กวิจัยยาที่มีสมุดทดลองหนา และต้องทำให้ pipeline ต่อจากยาตัวหลักได้",
+  strengths: [
+    "ยา specialty และ oncology สำคัญ",
+    "งานวิจัยและ pipeline เป็นหัวใจ",
+    "นิสัย defensive healthcare"
+  ],
+  weaknesses: [
+    "การพึ่งพายาหลักต้องติดตาม",
+    "patent cycle สำคัญ",
+    "ผลทดลองและกฎอนุมัติเปลี่ยนอารมณ์ได้"
+  ],
+  riskTemperament: "เด็กวิจัยยาห้องพยาบาล มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "PFE",
+    "ABBV",
+    "JNJ"
+  ],
+  classmates: [
+    "JNJ",
+    "ABBV",
+    "PFE",
+    "UNH",
+    "UNH"
+  ],
+  tags: [
+    "pharma",
+    "oncology",
+    "pipeline",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ pharma pipeline",
+    "ดู patent exposure",
+    "เข้าใจ clinical/regulatory risk"
+  ],
+  disclaimerNote: "แฟ้มของ MRK เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "PFE",
+  companyName: "Pfizer Inc.",
+  assetType: "stock",
+  classroom: "Healthcare Hall",
+  sector: "Healthcare",
+  archetype: "เด็กวัคซีนและยารุ่นใหญ่",
+  roleTitle: "ผู้ดูแลตู้ยาหลากหลาย",
+  shortDescription: "เด็ก pharma ชื่อคุ้นที่มีบทเรียนเรื่องผลิตภัณฑ์ดัง รายได้ที่เปลี่ยน และการเติม pipeline",
+  personality: "เคยเด่นมากในบางช่วง แต่ตอนนี้ต้องพิสูจน์การจัดสมุดยาหลังคลื่นใหญ่",
+  oneLineStory: "PFE คือเด็กตู้ยาที่เคยมีช่วง spotlight ใหญ่ และกำลังจัดบทเรียนต่อไปให้มั่นคงขึ้น",
+  strengths: [
+    "ขนาด pharma และความสามารถการผลิต",
+    "มีหลาย therapeutic areas",
+    "นิสัย dividend น่าสังเกต"
+  ],
+  weaknesses: [
+    "รายได้จากผลิตภัณฑ์พิเศษบางช่วงลดลงได้",
+    "pipeline ต้องชดเชยช่องว่าง",
+    "กฎราคาและการแข่งขันยาสำคัญ"
+  ],
+  riskTemperament: "เด็กวัคซีนและยารุ่นใหญ่ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B",
+    moatStrength: "B-",
+    valuationPressure: "Low",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "MRK",
+    "ABBV",
+    "JNJ"
+  ],
+  classmates: [
+    "JNJ",
+    "MRK",
+    "ABBV",
+    "UNH",
+    "UNH"
+  ],
+  tags: [
+    "pharma",
+    "vaccine",
+    "pipeline",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ pharma transition",
+    "ดู product cycle",
+    "เข้าใจ dividend กับ pipeline risk"
+  ],
+  disclaimerNote: "แฟ้มของ PFE เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "TMO",
+  companyName: "Thermo Fisher Scientific Inc.",
+  assetType: "stock",
+  classroom: "Healthcare Hall",
+  sector: "Healthcare",
+  archetype: "เด็กห้องแล็บวิทยาศาสตร์",
+  roleTitle: "ผู้ขายอุปกรณ์วิจัย",
+  shortDescription: "เด็ก healthcare tools ที่จัดหาเครื่องมือ น้ำยา และบริการให้ห้องแล็บหลายแห่ง",
+  personality: "เงียบแต่สำคัญ ช่วยให้เรียนรู้ picks-and-shovels ของวิทยาศาสตร์สุขภาพ",
+  oneLineStory: "TMO คือเด็กหลังห้องแล็บที่มีเครื่องมือให้เพื่อนนักวิจัยยืมทำการทดลอง",
+  strengths: [
+    "เครื่องมือและบริการวิจัยหลากหลาย",
+    "ฐานลูกค้า pharma, biotech และ academic",
+    "บทเรียนเรื่อง life science tools"
+  ],
+  weaknesses: [
+    "งบ biotech และ research cycle มีผล",
+    "การเติบโตหลังช่วงพิเศษอาจช้าลง",
+    "integration จากดีลต้องบริหาร"
+  ],
+  riskTemperament: "เด็กห้องแล็บวิทยาศาสตร์ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "TMO",
+    "MRK",
+    "MRK"
+  ],
+  classmates: [
+    "JNJ",
+    "UNH",
+    "MRK",
+    "ABBV",
+    "UNH"
+  ],
+  tags: [
+    "life science tools",
+    "healthcare",
+    "research",
+    "lab"
+  ],
+  investorFit: [
+    "เรียนรู้ picks-and-shovels healthcare",
+    "ดู research funding cycle",
+    "เข้าใจเครื่องมือห้องแล็บ"
+  ],
+  disclaimerNote: "แฟ้มของ TMO เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "O",
+  companyName: "Realty Income Corporation",
+  assetType: "stock",
+  classroom: "Dividend Club",
+  sector: "Real Estate",
+  archetype: "เด็กเก็บค่าเช่ารายเดือน",
+  roleTitle: "ผู้ดูแลห้องเช่าปันผล",
+  shortDescription: "เด็ก REIT ที่ชอบแจกขนมรายเดือนและถืออสังหาริมทรัพย์เชิงพาณิชย์หลายแห่ง",
+  personality: "นิ่งกว่าห้องโตแรง แต่ไวต่อดอกเบี้ยและคุณภาพผู้เช่า",
+  oneLineStory: "O คือเด็กเจ้าของตึกที่เดินเก็บค่าเช่าเป็นรอบ ๆ และเอามาแบ่งขนมให้ชมรมปันผล",
+  strengths: [
+    "รายได้ค่าเช่าจากอสังหาริมทรัพย์หลากหลาย",
+    "นิสัย dividend ชัดเจน",
+    "ใช้เรียนรู้ REIT และดอกเบี้ย"
+  ],
+  weaknesses: [
+    "ดอกเบี้ยสูงกดดัน valuation ได้",
+    "คุณภาพผู้เช่าและ occupancy สำคัญ",
+    "REIT ต้องเข้าถึงตลาดทุน"
+  ],
+  riskTemperament: "เด็กเก็บค่าเช่ารายเดือน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "C+",
+    stability: "B",
+    moatStrength: "B",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "O",
+    "SCHD",
+    "KO"
+  ],
+  classmates: [
+    "SCHD",
+    "KO",
+    "PEP",
+    "PG",
+    "VTI"
+  ],
+  tags: [
+    "REIT",
+    "dividend",
+    "real estate",
+    "rates"
+  ],
+  investorFit: [
+    "เรียนรู้ REIT",
+    "ดูผลของดอกเบี้ย",
+    "เข้าใจรายได้ค่าเช่ากับปันผล"
+  ],
+  disclaimerNote: "แฟ้มของ O เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "XOM",
+  companyName: "Exxon Mobil Corporation",
+  assetType: "stock",
+  classroom: "Energy & Industrial Yard",
+  sector: "Energy",
+  archetype: "เด็กสนามพลังงานรุ่นใหญ่",
+  roleTitle: "ผู้ดูแลน้ำมันและก๊าซ",
+  shortDescription: "เด็กพลังงานขนาดใหญ่ที่ช่วยให้เรียนรู้ commodity cycle, cash flow และการลงทุนระยะยาว",
+  personality: "แข็งแรงตามรอบพลังงาน แต่คะแนนเหวี่ยงได้เมื่อราคาน้ำมันและก๊าซเปลี่ยน",
+  oneLineStory: "XOM คือเด็กสนามพลังงานที่ถือหมวกนิรภัยและสมุด commodity cycle เข้าห้องเรียน",
+  strengths: [
+    "ขนาดใหญ่ในน้ำมันและก๊าซ",
+    "cash flow สูงในช่วงพลังงานแข็งแรง",
+    "integrated model ช่วยให้เห็นหลายส่วนของ value chain"
+  ],
+  weaknesses: [
+    "ราคาพลังงานผันผวน",
+    "transition ด้านพลังงานเป็นคำถามระยะยาว",
+    "โครงการใหญ่ใช้เงินและเวลามาก"
+  ],
+  riskTemperament: "เด็กสนามพลังงานรุ่นใหญ่ มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "CVX",
+    "XOM",
+    "CAT"
+  ],
+  classmates: [
+    "CVX",
+    "CAT",
+    "DE",
+    "GE",
+    "XOM"
+  ],
+  tags: [
+    "energy",
+    "oil",
+    "cash flow",
+    "dividend"
+  ],
+  investorFit: [
+    "เรียนรู้ commodity cycle",
+    "ดู integrated energy",
+    "เข้าใจ dividend กับราคาพลังงาน"
+  ],
+  disclaimerNote: "แฟ้มของ XOM เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "CVX",
+  companyName: "Chevron Corporation",
+  assetType: "stock",
+  classroom: "Energy & Industrial Yard",
+  sector: "Energy",
+  archetype: "เด็กพลังงานสายวินัย",
+  roleTitle: "ผู้ดูแลโครงการน้ำมันและก๊าซ",
+  shortDescription: "เด็กพลังงานขนาดใหญ่ที่เน้นวินัยเงินทุนและกระแสเงินสดในสนาม commodity",
+  personality: "สุขุมกว่าเด็กพลังงานบางตัว แต่ยังต้องเรียนรู้ราคาน้ำมันที่เหวี่ยงได้",
+  oneLineStory: "CVX คือเด็กพลังงานที่ทำงานเป็นระบบและคอยดูว่าโครงการใหญ่ใช้เงินคุ้มไหม",
+  strengths: [
+    "integrated energy business",
+    "วินัยเงินทุนและ dividend เป็นบทเรียน",
+    "ฐานสินทรัพย์พลังงานขนาดใหญ่"
+  ],
+  weaknesses: [
+    "ผูกกับราคาน้ำมันและก๊าซ",
+    "โครงการใหญ่มี execution risk",
+    "energy transition เป็นโจทย์ระยะยาว"
+  ],
+  riskTemperament: "เด็กพลังงานสายวินัย มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B-",
+    stability: "B+",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "XOM",
+    "XOM",
+    "XOM"
+  ],
+  classmates: [
+    "XOM",
+    "CAT",
+    "DE",
+    "GE",
+    "XOM"
+  ],
+  tags: [
+    "energy",
+    "oil",
+    "dividend",
+    "capital discipline"
+  ],
+  investorFit: [
+    "เทียบ XOM กับ CVX",
+    "เรียนรู้ capital discipline",
+    "ดู commodity exposure"
+  ],
+  disclaimerNote: "แฟ้มของ CVX เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "CAT",
+  companyName: "Caterpillar Inc.",
+  assetType: "stock",
+  classroom: "Energy & Industrial Yard",
+  sector: "Industrials",
+  archetype: "เด็กเครื่องจักรก่อสร้าง",
+  roleTitle: "ผู้ดูแลรถตักสนามโรงเรียน",
+  shortDescription: "เด็กอุตสาหกรรมที่ขายเครื่องจักรให้เหมือง ก่อสร้าง พลังงาน และโครงการใหญ่",
+  personality: "แข็งแรง แต่เป็นวัฏจักรตามการลงทุนจริงในโลกนอกห้องเรียน",
+  oneLineStory: "CAT คือเด็กขับรถตักที่โผล่มาเมื่อโรงเรียนสร้างตึกใหม่ ขุดเหมือง หรือทำโครงการใหญ่",
+  strengths: [
+    "แบรนด์เครื่องจักรหนักระดับโลก",
+    "เกี่ยวข้องกับ construction, mining และ energy",
+    "บริการหลังการขายช่วยเสริมความทนทาน"
+  ],
+  weaknesses: [
+    "วัฏจักรการลงทุนอุตสาหกรรมมีผล",
+    "commodity และ construction cycle กระทบ",
+    "ต้นทุนและ supply chain สำคัญ"
+  ],
+  riskTemperament: "เด็กเครื่องจักรก่อสร้าง มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "High"
+  },
+  rivals: [
+    "DE",
+    "GE",
+    "XOM"
+  ],
+  classmates: [
+    "DE",
+    "GE",
+    "BA",
+    "XOM",
+    "XOM"
+  ],
+  tags: [
+    "industrials",
+    "machinery",
+    "construction",
+    "cycle"
+  ],
+  investorFit: [
+    "เรียนรู้ industrial cycle",
+    "ดู machinery moat",
+    "เข้าใจความสัมพันธ์กับ commodity และ infrastructure"
+  ],
+  disclaimerNote: "แฟ้มของ CAT เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "DE",
+  companyName: "Deere & Company",
+  assetType: "stock",
+  classroom: "Energy & Industrial Yard",
+  sector: "Industrials",
+  archetype: "เด็กฟาร์มเทคโนโลยี",
+  roleTitle: "ผู้ดูแลรถไถอัจฉริยะ",
+  shortDescription: "เด็กเครื่องจักรเกษตรที่ผสมเหล็ก ซอฟต์แวร์ และข้อมูลในไร่นา",
+  personality: "จริงจัง มีฤดูกาล และสอนบทเรียนวัฏจักรเกษตรกับ productivity ได้ดี",
+  oneLineStory: "DE คือเด็กขับรถไถอัจฉริยะที่ช่วยให้ฟาร์มทำงานแม่นขึ้นและใช้ข้อมูลมากขึ้น",
+  strengths: [
+    "แบรนด์แข็งในเครื่องจักรเกษตร",
+    "precision agriculture เพิ่มบทเรียนเทคโนโลยี",
+    "บริการและ financing ช่วยเสริม ecosystem"
+  ],
+  weaknesses: [
+    "รายได้ผูกกับ farm income cycle",
+    "อัตราดอกเบี้ยและราคาพืชผลมีผล",
+    "เครื่องจักรราคาแพงทำให้ลูกค้าชะลอได้"
+  ],
+  riskTemperament: "เด็กฟาร์มเทคโนโลยี มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "CAT",
+    "GE",
+    "CAT"
+  ],
+  classmates: [
+    "CAT",
+    "GE",
+    "BA",
+    "XOM",
+    "XOM"
+  ],
+  tags: [
+    "agriculture",
+    "machinery",
+    "industrial",
+    "technology"
+  ],
+  investorFit: [
+    "เรียนรู้ ag equipment cycle",
+    "ดู precision agriculture",
+    "เข้าใจ industrial financing"
+  ],
+  disclaimerNote: "แฟ้มของ DE เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "GE",
+  companyName: "GE Aerospace",
+  assetType: "stock",
+  classroom: "Energy & Industrial Yard",
+  sector: "Industrials",
+  archetype: "เด็กเครื่องยนต์อากาศยาน",
+  roleTitle: "ช่างประจำโรงซ่อมเครื่องบิน",
+  shortDescription: "เด็กอุตสาหกรรมที่เน้นเครื่องยนต์และบริการหลังการขายในโลกการบิน",
+  personality: "กำลังจัดตัวใหม่หลังแยกธุรกิจ และมีบทเรียนเรื่อง installed base กับบริการระยะยาว",
+  oneLineStory: "GE คือเด็กช่างเครื่องยนต์ที่คอยดูแลให้เครื่องบินในโรงเรียนบินต่อได้หลายปี",
+  strengths: [
+    "installed base เครื่องยนต์อากาศยานใหญ่",
+    "บริการซ่อมบำรุงสร้างรายได้ต่อเนื่อง",
+    "บทเรียนเรื่อง aerospace cycle"
+  ],
+  weaknesses: [
+    "การบินและ supply chain มีวัฏจักร",
+    "execution หลังปรับโครงสร้างสำคัญ",
+    "ลูกค้าสายการบินและผู้ผลิตเครื่องบินมีผล"
+  ],
+  riskTemperament: "เด็กเครื่องยนต์อากาศยาน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B+",
+    stability: "B",
+    moatStrength: "B+",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "GE",
+    "BA",
+    "CAT"
+  ],
+  classmates: [
+    "CAT",
+    "DE",
+    "BA",
+    "XOM",
+    "XOM"
+  ],
+  tags: [
+    "aerospace",
+    "industrial",
+    "engines",
+    "services"
+  ],
+  investorFit: [
+    "เรียนรู้ installed base",
+    "ดู aerospace recovery",
+    "เข้าใจบริการหลังการขายอุตสาหกรรม"
+  ],
+  disclaimerNote: "แฟ้มของ GE เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "BA",
+  companyName: "The Boeing Company",
+  assetType: "stock",
+  classroom: "Energy & Industrial Yard",
+  sector: "Industrials",
+  archetype: "เด็กสร้างเครื่องบินที่ต้องจัดโต๊ะใหม่",
+  roleTitle: "ผู้ประกอบเครื่องบินใหญ่",
+  shortDescription: "เด็กอุตสาหกรรมการบินที่มีบทเรียนทั้ง backlog, safety, supply chain และความเชื่อมั่น",
+  personality: "มีความสำคัญสูง แต่คะแนนซนเพราะการส่งงานและคุณภาพถูกจับตาเข้ม",
+  oneLineStory: "BA คือเด็กประกอบเครื่องบินที่มีสมุดสั่งงานหนา แต่ต้องพิสูจน์ว่างานทุกชิ้นปลอดภัยและส่งทัน",
+  strengths: [
+    "หนึ่งในผู้ผลิตเครื่องบินพาณิชย์รายใหญ่",
+    "backlog ทำให้มีบทเรียนระยะยาว",
+    "เกี่ยวข้องกับ aerospace supply chain กว้าง"
+  ],
+  weaknesses: [
+    "quality และ safety เป็นข้อสอบสำคัญ",
+    "cash flow อ่อนไหวต่อ delivery schedule",
+    "supply chain และ regulation กดดันได้"
+  ],
+  riskTemperament: "เด็กสร้างเครื่องบินที่ต้องจัดโต๊ะใหม่ มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "C+",
+    moatStrength: "B",
+    valuationPressure: "Medium",
+    volatility: "High",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "GE",
+    "GE",
+    "BA"
+  ],
+  classmates: [
+    "GE",
+    "CAT",
+    "DE",
+    "XOM",
+    "XOM"
+  ],
+  tags: [
+    "aerospace",
+    "manufacturing",
+    "safety",
+    "cycle"
+  ],
+  investorFit: [
+    "เรียนรู้ aerospace manufacturing",
+    "ดู execution risk",
+    "เข้าใจ backlog กับ cash flow"
+  ],
+  disclaimerNote: "แฟ้มของ BA เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "VTI",
+  companyName: "Vanguard Total Stock Market ETF",
+  assetType: "ETF",
+  classroom: "ETF Cohort",
+  sector: "ETF",
+  archetype: "โฮมรูมตลาดทั้งโรงเรียน",
+  roleTitle: "ตัวแทนหุ้นสหรัฐกว้างมาก",
+  shortDescription: "ETF ที่รวมเพื่อนจำนวนมากจากตลาดหุ้นสหรัฐไว้ในสมุดเดียว กว้างกว่าเฉพาะบริษัทใหญ่",
+  personality: "นิสัยกระจายตัวกว่าเด็กเดี่ยว เหมาะกับการเรียนรู้ภาพรวมตลาดแบบไม่เลือกโต๊ะเดียว",
+  oneLineStory: "VTI คือโฮมรูมตลาดกว้างที่รวมเพื่อนทั้งชั้น ตั้งแต่ตัวใหญ่ไปจนถึงตัวเล็กกว่า",
+  strengths: [
+    "กระจายตัวกว้างในหุ้นสหรัฐ",
+    "ใช้เรียนรู้ total market exposure",
+    "ช่วยเทียบกับ SPY และ ETF ธีมเฉพาะ"
+  ],
+  weaknesses: [
+    "ยังผันผวนตามตลาดรวม",
+    "mega-cap ยังมีน้ำหนักสูง",
+    "ไม่ได้กันความเสี่ยงเศรษฐกิจโดยอัตโนมัติ"
+  ],
+  riskTemperament: "โฮมรูมตลาดทั้งโรงเรียน มีระดับความซน ซนกลาง ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "Medium",
+  reportCard: {
+    growthEnergy: "B",
+    stability: "B+",
+    moatStrength: "B",
+    valuationPressure: "Medium",
+    volatility: "Medium",
+    dividendFriendliness: "Medium"
+  },
+  rivals: [
+    "SPY",
+    "QQQ",
+    "SPY"
+  ],
+  classmates: [
+    "SPY",
+    "QQQ",
+    "SCHD",
+    "XLK",
+    "BLK"
+  ],
+  tags: [
+    "ETF",
+    "total market",
+    "diversified",
+    "broad market"
+  ],
+  investorFit: [
+    "เรียนรู้ total market ETF",
+    "เทียบ VTI กับ SPY",
+    "เข้าใจ diversification แบบกว้าง"
+  ],
+  disclaimerNote: "แฟ้มของ VTI เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+},
+{
+  ticker: "XLK",
+  companyName: "Technology Select Sector SPDR Fund",
+  assetType: "ETF",
+  classroom: "ETF Cohort",
+  sector: "ETF",
+  archetype: "ชมรม ETF ห้องเทค",
+  roleTitle: "ตัวแทน sector technology",
+  shortDescription: "ETF ที่รวมเพื่อนกลุ่มเทคโนโลยีขนาดใหญ่ไว้ในแฟ้ม sector เดียว",
+  personality: "พลังสูงกว่าตลาดกว้าง และช่วยให้เห็นความกระจุกตัวในห้องเทคชัดขึ้น",
+  oneLineStory: "XLK คือบัตรชมรมเทคที่รวมเด็กซอฟต์แวร์ อุปกรณ์ และชิปบางส่วนไว้ในห้องเดียว",
+  strengths: [
+    "ใช้ศึกษา technology sector exposure",
+    "มีเพื่อน mega-cap น้ำหนักสูง",
+    "ช่วยเทียบกับ QQQ และ SPY"
+  ],
+  weaknesses: [
+    "กระจุกตัวในเทคมากกว่าตลาดกว้าง",
+    "valuation และ rate sensitivity มีผล",
+    "น้ำหนักรายตัวใหญ่เปลี่ยนอารมณ์ ETF ได้"
+  ],
+  riskTemperament: "ชมรม ETF ห้องเทค มีระดับความซน ซนมาก ใช้เรียนรู้ความผันผวนและนิสัยธุรกิจแบบง่าย",
+  riskLevel: "High",
+  reportCard: {
+    growthEnergy: "A-",
+    stability: "B",
+    moatStrength: "B",
+    valuationPressure: "High",
+    volatility: "Medium",
+    dividendFriendliness: "Low"
+  },
+  rivals: [
+    "QQQ",
+    "SPY",
+    "SMH"
+  ],
+  classmates: [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "QQQ",
+    "VTI"
+  ],
+  tags: [
+    "ETF",
+    "technology",
+    "sector",
+    "mega cap"
+  ],
+  investorFit: [
+    "เรียนรู้ sector ETF",
+    "ดู concentration risk",
+    "เทียบ XLK กับ QQQ"
+  ],
+  disclaimerNote: "แฟ้มของ XLK เป็นบทเรียนแบบย่อเพื่อการศึกษาและความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการลงทุนหรือการคาดการณ์ราคา"
+}
 ];
 
 const thaiClassrooms = {
@@ -460,7 +3932,11 @@ const thaiClassrooms = {
   "Data & Intelligence Club": "ชมรมข้อมูลและปัญญา",
   "Infrastructure Workshop": "ห้องโครงสร้างพื้นฐาน",
   "ETF Cohort": "ห้องกองทุนรวมเพื่อนเยอะ",
-  "Dividend Club": "ชมรมปันผล"
+  "Dividend Club": "ชมรมปันผล",
+  "Finance & Payments Hall": "ห้องการเงินและการจ่ายเงิน",
+  "Healthcare Hall": "ห้องพยาบาลและสุขภาพ",
+  "Consumer & Brand Hall": "ห้องแบรนด์และผู้บริโภค",
+  "Energy & Industrial Yard": "ลานพลังงานและอุตสาหกรรม"
 };
 
 const thaiRiskLevels = {
@@ -569,31 +4045,46 @@ const fallbackThaiByClassroom = {
   "ชมรมข้อมูลและปัญญา": ["เด็กข้อมูลสายวิเคราะห์", "นักอ่านสัญญาณ"],
   "ห้องโครงสร้างพื้นฐาน": ["เด็กหลังบ้านคนสำคัญ", "ช่างประจำโรงเรียน"],
   "ห้องกองทุนรวมเพื่อนเยอะ": ["ตัวแทนหมู่คณะ", "ห้องรวมเพื่อนหลายคน"],
-  "ชมรมปันผล": ["เด็กสายสม่ำเสมอ", "ผู้แจกขนมประจำชมรม"]
+  "ชมรมปันผล": ["เด็กสายสม่ำเสมอ", "ผู้แจกขนมประจำชมรม"],
+  "ห้องการเงินและการจ่ายเงิน": ["เด็กห้องการเงิน", "ผู้ดูแลสมุดเงิน"],
+  "ห้องพยาบาลและสุขภาพ": ["เด็กห้องพยาบาล", "ผู้ดูแลแฟ้มสุขภาพ"],
+  "ห้องแบรนด์และผู้บริโภค": ["เด็กแบรนด์ประจำโรงเรียน", "ผู้ดูแลของใช้และร้านค้า"],
+  "ลานพลังงานและอุตสาหกรรม": ["เด็กสนามอุตสาหกรรม", "ช่างประจำลานใหญ่"]
 };
+
+function ensureMinText(text, suffix, minLength) {
+  const value = String(text || "").trim();
+  if (value.length >= minLength) return value;
+  return `${value} ${suffix}`.trim();
+}
 
 function toThaiProfile(profile) {
   const classroom = thaiClassrooms[profile.classroom] || profile.classroom;
   const fallback = fallbackThaiByClassroom[classroom] || ["นักเรียนประจำห้อง", "ตัวละครการเรียนรู้"];
   const custom = thaiProfiles[profile.ticker] || {};
+  const roleTitle = custom.roleTitle || profile.roleTitle || fallback[1];
+  const shortDescription =
+    custom.shortDescription || profile.shortDescription || `นักเรียนห้อง ${classroom} ที่ช่วยให้เราเรียนรู้ธุรกิจและนิสัยตลาดผ่านมุมมองแบบโรงเรียน`;
+  const personality =
+    custom.personality || profile.personality || `มีคาแรกเตอร์เฉพาะตัวของห้อง ${classroom} เหมาะสำหรับเปิดแฟ้มดูนิสัยธุรกิจแบบง่าย ๆ`;
+  const oneLineStory =
+    custom.oneLineStory || profile.oneLineStory || `${profile.ticker} คือหนึ่งในนักเรียนของ ${classroom} ที่ช่วยเล่าเรื่องธุรกิจแบบจำง่าย ไม่ใช่คำแนะนำการลงทุน`;
+  const riskTemperament =
+    custom.riskTemperament || profile.riskTemperament || `ระดับความซนของน้องอยู่ที่ ${thaiRiskLevels[profile.riskLevel] || profile.riskLevel} ใช้ดูความผันผวนและนิสัยของธุรกิจแบบง่าย ๆ`;
 
   return {
     ...profile,
     classroom,
-    archetype: custom.archetype || fallback[0],
-    roleTitle: custom.roleTitle || fallback[1],
-    shortDescription:
-      custom.shortDescription || `นักเรียนห้อง ${classroom} ที่ช่วยให้เราเรียนรู้ธุรกิจและนิสัยตลาดผ่านมุมมองแบบโรงเรียน`,
-    personality:
-      custom.personality || `มีคาแรกเตอร์เฉพาะตัวของห้อง ${classroom} เหมาะสำหรับเปิดแฟ้มดูนิสัยธุรกิจแบบง่าย ๆ`,
-    oneLineStory:
-      custom.oneLineStory || `${profile.ticker} คือหนึ่งในนักเรียนของ ${classroom} ที่ช่วยเล่าเรื่องธุรกิจแบบจำง่าย ไม่ใช่คำแนะนำการลงทุน`,
+    archetype: custom.archetype || profile.archetype || fallback[0],
+    roleTitle: ensureMinText(roleTitle, `ประจำ ${classroom}`, 12),
+    shortDescription: ensureMinText(shortDescription, `ใช้เป็นบทเรียนแบบย่อของ ${classroom} สำหรับมือใหม่ที่อยากจำคาแรกเตอร์ธุรกิจให้ง่ายขึ้น`, 60),
+    personality: ensureMinText(personality, "และช่วยให้เห็นนิสัยธุรกิจแบบเป็นมิตรกับมือใหม่ในโรงเรียนหุ้นมีชีวิต", 55),
+    oneLineStory: ensureMinText(oneLineStory, "เพื่อให้จำคาแรกเตอร์ธุรกิจได้ง่ายขึ้นในโรงเรียนหุ้นมีชีวิต โดยไม่ใช้เป็นสัญญาณซื้อขาย", 70),
     strengths:
       custom.strengths || profile.strengths.map((item) => `บทเรียนเด่น: ${item}`),
     weaknesses:
       custom.weaknesses || profile.weaknesses.map((item) => `ข้อควรสังเกต: ${item}`),
-    riskTemperament:
-      custom.riskTemperament || `ระดับความซนของน้องอยู่ที่ ${thaiRiskLevels[profile.riskLevel] || profile.riskLevel} ใช้ดูความผันผวนและนิสัยของธุรกิจแบบง่าย ๆ`,
+    riskTemperament: ensureMinText(riskTemperament, "ใช้เปรียบเทียบอารมณ์ของธุรกิจ ไม่ใช่ตัดสินว่าใครดีกว่าใคร", 35),
     investorFit:
       custom.investorFit || profile.investorFit.map((item) => item.replace(/^Useful for studying /, "เรียนรู้เรื่อง ").replace(/^Good case study for /, "ดูตัวอย่าง ").replace(/^Helpful for /, "ช่วยให้เข้าใจ ")),
     disclaimerNote:
