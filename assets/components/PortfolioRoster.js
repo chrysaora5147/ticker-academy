@@ -6,8 +6,8 @@ export function PortfolioRoster(students) {
     <section class="section-block">
       <div class="section-heading">
         <div>
-          <p class="section-kicker">Class roster</p>
-          <h2>${students.length} selected students</h2>
+          <p class="section-kicker">รายชื่อนักเรียนในห้อง</p>
+          <h2>เลือกนักเรียน ${students.length} คน</h2>
         </div>
       </div>
       <div class="student-grid portfolio-roster">
