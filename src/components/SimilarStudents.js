@@ -18,20 +18,20 @@ export function SimilarStudents(profile) {
   return html`
     <section class="profile-panel">
       <div class="panel-heading">
-        <p class="section-kicker">Friends, rivals, classmates</p>
-        <h2>Similar students</h2>
+        <p class="section-kicker">เพื่อนร่วมชั้นและคู่ปรับ</p>
+        <h2>คนที่ควรเปิดแฟ้มต่อ</h2>
       </div>
       <div class="relationship-grid">
         <div>
-          <span>Rivals</span>
+          <span>คู่ปรับประจำห้อง</span>
           <strong>${profile.rivals.join(", ")}</strong>
         </div>
         <div>
-          <span>Classmates</span>
+          <span>เพื่อนร่วมชั้น</span>
           <strong>${profile.classmates.join(", ")}</strong>
         </div>
       </div>
-      <div class="mini-student-grid">${cards || `<p class="small-note">No matching local profiles yet.</p>`}</div>
+      <div class="mini-student-grid">${cards || `<p class="small-note">ยังไม่มีแฟ้มที่เชื่อมกันในชุดข้อมูลนี้</p>`}</div>
     </section>
   `;
 }

@@ -6,10 +6,10 @@ export function ClassroomPreview() {
     <section class="section-block">
       <div class="section-heading">
         <div>
-          <p class="section-kicker">Classroom preview</p>
-          <h2>Browse the academy mood</h2>
+          <p class="section-kicker">แผนที่โรงเรียน</p>
+          <h2>เดินดูห้องเรียนก่อนเปิดแฟ้ม</h2>
         </div>
-        <button class="secondary-action" data-link="/classrooms">Open all hallways</button>
+        <button class="secondary-action" data-link="/classrooms">ดูห้องเรียนทั้งหมด</button>
       </div>
       <div class="classroom-grid">
         ${getClassrooms()

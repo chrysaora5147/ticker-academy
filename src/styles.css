@@ -1,20 +1,21 @@
 :root {
   color-scheme: light;
-  --paper: #f7f1e6;
-  --paper-deep: #efe1c9;
-  --ink: #232323;
-  --muted: #6d665f;
-  --navy: #1f3556;
-  --navy-soft: #dce6f5;
-  --gold: #b98b2f;
-  --gold-soft: #f1dfb2;
+  --paper: #fff4df;
+  --paper-deep: #f5dfbd;
+  --ink: #2b241c;
+  --muted: #766a5c;
+  --navy: #284267;
+  --navy-soft: #e7eef8;
+  --gold: #d1822b;
+  --gold-soft: #ffe2a9;
   --green: #2f6d58;
   --green-soft: #d9eadf;
   --amber: #c96e37;
-  --line: rgba(35, 35, 35, 0.13);
-  --white: #fffaf0;
-  --shadow: 0 22px 60px rgba(37, 30, 19, 0.12);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --line: rgba(95, 70, 36, 0.18);
+  --white: #fffdfa;
+  --shadow: 0 16px 36px rgba(101, 72, 33, 0.13);
+  --radius: 18px;
+  font-family: "Noto Sans Thai", "Th Sarabun New", "Leelawadee UI", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * {
@@ -24,8 +25,11 @@
 body {
   margin: 0;
   background:
-    linear-gradient(120deg, rgba(31, 53, 86, 0.08), transparent 34%),
-    linear-gradient(180deg, var(--paper), #fbf7ee 58%, #f3eadb);
+    linear-gradient(rgba(255, 255, 255, 0.34) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px),
+    linear-gradient(120deg, rgba(209, 130, 43, 0.12), transparent 34%),
+    linear-gradient(180deg, var(--paper), #fffaf0 58%, #f5ead8);
+  background-size: 28px 28px, 28px 28px, auto, auto;
   color: var(--ink);
 }
 
@@ -70,6 +74,7 @@ button {
   justify-content: center;
   letter-spacing: 0;
   width: 44px;
+  border-radius: 14px;
 }
 
 .brand-lockup strong,
@@ -97,13 +102,37 @@ button {
   border: 1px solid var(--line);
   color: var(--ink);
   padding: 9px 12px;
+  border-radius: 999px;
   text-decoration: none;
 }
 
 .top-nav .active {
-  background: var(--navy);
-  border-color: var(--navy);
-  color: var(--white);
+  background: var(--gold-soft);
+  border-color: rgba(209, 130, 43, 0.35);
+  color: #6d3f0b;
+}
+
+.clear-filter-button,
+.card-link,
+.search-row button,
+.empty-state button {
+  border-radius: 999px;
+}
+
+.secondary-action {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.secondary-action:hover,
+.quick-tickers button:hover,
+.top-nav button:hover,
+.top-nav a:hover {
+  background: #fff8e8;
+}
+
+.top-nav .active:hover {
+  color: #6d3f0b;
 }
 
 main {
@@ -147,7 +176,7 @@ p {
 
 h1 {
   color: var(--navy);
-  font-size: clamp(4rem, 9vw, 7.7rem);
+  font-size: clamp(3.35rem, 8vw, 6.8rem);
   letter-spacing: 0;
   line-height: 0.86;
   margin-bottom: 22px;
@@ -208,8 +237,9 @@ h3 {
 .portfolio-input-panel,
 .portfolio-messages,
 .portfolio-panel {
-  background: rgba(255, 250, 240, 0.86);
+  background: rgba(255, 253, 250, 0.88);
   border: 1px solid var(--line);
+  border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
 
@@ -237,14 +267,15 @@ h3 {
   color: var(--ink);
   min-width: 0;
   padding: 14px 14px;
+  border-radius: 14px;
 }
 
 .search-row button,
 .card-link,
 .empty-state button,
 .clear-filter-button {
-  background: var(--navy);
-  border: 1px solid var(--navy);
+  background: var(--gold);
+  border: 1px solid var(--gold);
   color: var(--white);
   font-weight: 800;
   padding: 14px 16px;
@@ -277,6 +308,7 @@ h3 {
   gap: 12px;
   justify-content: space-between;
   padding: 12px;
+  border-radius: 14px;
   text-align: left;
 }
 
@@ -329,6 +361,7 @@ h3 {
   gap: 6px;
   min-height: 86px;
   padding: 14px;
+  border-radius: var(--radius);
   text-align: left;
 }
 
@@ -353,6 +386,20 @@ h3 {
   gap: 14px;
   min-height: 310px;
   padding: 18px;
+  position: relative;
+}
+
+.student-card::before,
+.profile-intro::before,
+.browse-classroom-card::before {
+  background: rgba(209, 130, 43, 0.18);
+  border-radius: 999px;
+  content: "";
+  height: 8px;
+  left: 18px;
+  position: absolute;
+  right: 18px;
+  top: 10px;
 }
 
 .card-topline,
@@ -373,6 +420,7 @@ h3 {
   font-weight: 850;
   letter-spacing: 0;
   padding: 6px 8px;
+  border-radius: 999px;
 }
 
 .pill-navy {
@@ -392,7 +440,7 @@ h3 {
 
 .ticker {
   color: var(--gold);
-  font-size: 2.8rem;
+  font-size: clamp(2.15rem, 4vw, 2.8rem);
   font-weight: 900;
   letter-spacing: 0;
   line-height: 0.92;
@@ -406,6 +454,8 @@ h3 {
   font-size: 0.78rem;
   font-weight: 850;
   padding: 7px 9px;
+  border-radius: 999px;
+  background: rgba(209, 130, 43, 0.1);
 }
 
 .student-card p:not(.ticker),
@@ -433,11 +483,12 @@ h3 {
 }
 
 .classroom-tile {
-  background: rgba(31, 53, 86, 0.08);
-  border: 1px solid rgba(31, 53, 86, 0.14);
+  background: rgba(255, 253, 250, 0.78);
+  border: 1px dashed rgba(209, 130, 43, 0.35);
   cursor: pointer;
   min-height: 112px;
   padding: 16px;
+  border-radius: var(--radius);
 }
 
 .classroom-tile span,
@@ -606,6 +657,7 @@ h3 {
   color: var(--ink);
   min-width: 0;
   padding: 13px 12px;
+  border-radius: 14px;
 }
 
 .portfolio-messages {
@@ -721,6 +773,7 @@ h3 {
   color: var(--ink);
   min-width: 0;
   padding: 13px 12px;
+  border-radius: 14px;
 }
 
 .popular-comparisons {
@@ -744,6 +797,7 @@ h3 {
   gap: 4px;
   padding: 12px;
   text-align: left;
+  border-radius: 14px;
 }
 
 .popular-comparisons strong {
@@ -786,6 +840,7 @@ h3 {
   font-size: 0.82rem;
   font-weight: 850;
   padding: 8px 10px;
+  border-radius: 999px;
 }
 
 .comparison-panel {
@@ -807,6 +862,7 @@ h3 {
   background: #fffdfa;
   border: 1px solid var(--line);
   padding: 14px;
+  border-radius: 14px;
 }
 
 .comparison-two-col h3 {
@@ -838,6 +894,7 @@ h3 {
   border: 1px solid var(--line);
   min-height: 54px;
   padding: 12px;
+  border-radius: 14px;
 }
 
 .comparison-report-row span {
@@ -858,6 +915,7 @@ h3 {
   background: rgba(31, 53, 86, 0.07);
   border: 1px solid var(--line);
   padding: 14px;
+  border-radius: 14px;
 }
 
 .relationship-hints span {
@@ -913,6 +971,7 @@ h3 {
   gap: 10px;
   min-height: 220px;
   padding: 18px;
+  position: relative;
   text-align: left;
 }
 
@@ -973,6 +1032,7 @@ h3 {
   color: var(--ink);
   min-width: 0;
   padding: 13px 12px;
+  border-radius: 14px;
 }
 
 .browse-results {
@@ -992,26 +1052,45 @@ h3 {
 
 .student-id-card {
   background:
-    linear-gradient(160deg, rgba(31, 53, 86, 0.94), rgba(31, 53, 86, 0.82)),
-    var(--navy);
-  color: var(--white);
-  min-height: 360px;
+    linear-gradient(180deg, rgba(255, 253, 250, 0.94), rgba(255, 244, 223, 0.96)),
+    var(--white);
+  color: var(--ink);
+  min-height: 330px;
   padding: 26px;
+  overflow: hidden;
+  position: relative;
+}
+
+.student-id-card::after {
+  border: 2px dashed rgba(209, 130, 43, 0.38);
+  border-radius: 999px;
+  color: rgba(209, 130, 43, 0.56);
+  content: "STUDENT FILE";
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  padding: 10px 14px;
+  position: absolute;
+  right: 22px;
+  top: 78px;
+  transform: rotate(8deg);
 }
 
 .student-id-card h1 {
-  color: var(--white);
-  font-size: clamp(5rem, 12vw, 9rem);
-  margin: 46px 0 12px;
+  color: var(--gold);
+  font-size: clamp(4.4rem, 10vw, 7.2rem);
+  margin: 42px 0 12px;
+  overflow-wrap: anywhere;
+  max-width: 100%;
 }
 
 .student-id-card p,
 .student-id-card span {
-  color: rgba(255, 250, 240, 0.8);
+  color: var(--muted);
 }
 
 .id-meta {
-  border-top: 1px solid rgba(255, 250, 240, 0.2);
+  border-top: 1px dashed rgba(209, 130, 43, 0.32);
   margin-top: 34px;
   padding-top: 16px;
 }
@@ -1019,11 +1098,12 @@ h3 {
 .profile-intro {
   display: grid;
   padding: 28px;
+  position: relative;
 }
 
 .profile-intro h2 {
   color: var(--navy);
-  font-size: clamp(2rem, 4vw, 4.2rem);
+  font-size: clamp(1.75rem, 3.4vw, 3.35rem);
   margin: 28px 0 14px;
 }
 
@@ -1048,6 +1128,7 @@ h3 {
   font-size: 0.84rem;
   font-weight: 800;
   padding: 8px 10px;
+  border-radius: 999px;
 }
 
 .profile-grid {
@@ -1080,6 +1161,7 @@ h3 {
   justify-content: space-between;
   min-height: 54px;
   padding: 12px;
+  border-radius: 14px;
 }
 
 .report-row span {
@@ -1104,6 +1186,7 @@ h3 {
   color: var(--muted);
   line-height: 1.45;
   padding: 12px;
+  border-radius: 14px;
 }
 
 .strength-panel {
@@ -1126,6 +1209,7 @@ h3 {
   background: rgba(31, 53, 86, 0.07);
   border: 1px solid var(--line);
   padding: 14px;
+  border-radius: 14px;
 }
 
 .mini-student-grid {
@@ -1143,6 +1227,7 @@ h3 {
   gap: 4px;
   padding: 12px;
   text-align: left;
+  border-radius: 14px;
 }
 
 .mini-student span {

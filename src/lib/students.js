@@ -72,12 +72,12 @@ export function getSharedRivals(left, right) {
 
 export function getRecommendedComparisons() {
   return [
-    { left: "AMD", right: "NVDA", label: "Chip challenger vs AI star" },
-    { left: "AAPL", right: "MSFT", label: "Brand ecosystem vs enterprise platform" },
-    { left: "SPY", right: "QQQ", label: "Whole school vs tech honors" },
-    { left: "GOOGL", right: "META", label: "Search lab vs social club" },
-    { left: "TQQQ", right: "QQQ", label: "Turbo classroom vs base cohort" },
-    { left: "AVGO", right: "TSM", label: "Infrastructure builder vs master workshop" }
+    { left: "AMD", right: "NVDA", label: "เด็กท้าชนชิป vs ดาวห้อง AI" },
+    { left: "AAPL", right: "MSFT", label: "ecosystem แบรนด์ vs ประธานห้ององค์กร" },
+    { left: "SPY", right: "QQQ", label: "โฮมรูมทั้งโรงเรียน vs ห้องเทคเกียรตินิยม" },
+    { left: "GOOGL", right: "META", label: "เด็กค้นหา vs หัวหน้าชมรมโซเชียล" },
+    { left: "TQQQ", right: "QQQ", label: "ห้องเทอร์โบ vs ห้องพื้นฐาน" },
+    { left: "AVGO", right: "TSM", label: "ช่างโครงสร้าง vs ช่างโรงงานระดับเทพ" }
   ];
 }
 
@@ -142,11 +142,11 @@ export function getCommonThemes(students) {
 
 export function getRecommendedPortfolios() {
   return [
-    { name: "Tech Honors Room", tickers: ["AAPL", "MSFT", "GOOGL", "AMD", "QQQ"] },
-    { name: "AI Chip Workshop", tickers: ["NVDA", "AMD", "AVGO", "TSM", "ASML"] },
-    { name: "Broad + Dividend Classroom", tickers: ["SPY", "QQQ", "SCHD"] },
-    { name: "Chaos Turbo Class", tickers: ["TQQQ", "QQQ", "TSLA"] },
-    { name: "Data + Platform Club", tickers: ["GOOGL", "META", "PLTR", "CRM", "ORCL"] }
+    { name: "ห้องเทคเกียรตินิยม", tickers: ["AAPL", "MSFT", "GOOGL", "AMD", "QQQ"] },
+    { name: "เวิร์กช็อปชิป AI", tickers: ["NVDA", "AMD", "AVGO", "TSM", "ASML"] },
+    { name: "ห้องกว้างบวกชมรมปันผล", tickers: ["SPY", "QQQ", "SCHD"] },
+    { name: "ห้องเทอร์โบซนมาก", tickers: ["TQQQ", "QQQ", "TSLA"] },
+    { name: "ชมรมข้อมูลและแพลตฟอร์ม", tickers: ["GOOGL", "META", "PLTR", "CRM", "ORCL"] }
   ];
 }
 
@@ -160,17 +160,17 @@ export function buildPortfolioClassroomSummary(students) {
   const classSize = students.length;
 
   if (!classSize) {
-    return "Add 3 to 5 valid student IDs to build a classroom personality.";
+    return "ใส่รหัสนักเรียนที่ถูกต้อง 3-5 คน เพื่ออ่านนิสัยของห้องนี้";
   }
 
   const classroomPhrase = topClassroom
-    ? `leans toward ${topClassroom.label}`
-    : "has a mixed hallway setup";
+    ? `เอนเอียงไปทาง ${topClassroom.label}`
+    : "ผสมหลายโถงทางเดิน";
   const themePhrase = topTheme
-    ? `Shared themes include ${themes.slice(0, 3).map((theme) => theme.label).join(", ")}.`
-    : "The class is spread across different themes, so the useful lesson is diversification of business stories.";
+    ? `ธีมที่ซ้ำกันคือ ${themes.slice(0, 3).map((theme) => theme.label).join(", ")}`
+    : "ห้องนี้กระจายหลายธีม บทเรียนคือการดูว่าธุรกิจหลายแบบอยู่ร่วมกันอย่างไร";
 
-  return `This classroom has ${classSize} students and ${classroomPhrase}. The room feels ${riskMood.toLowerCase()}, with roles ranging from ${students[0].archetype} to ${students[classSize - 1].archetype}. ${themePhrase} This is a learning lens for studying overlap, concentration, and temperament, not a recommendation.`;
+  return `ห้องนี้มีนักเรียน ${classSize} คน และ${classroomPhrase} บรรยากาศรวมคือ ${riskMood} มีบทบาทตั้งแต่ ${students[0].archetype} ไปจนถึง ${students[classSize - 1].archetype} ${themePhrase} ใช้เป็นเลนส์เรียนรู้เรื่องความทับซ้อน ความกระจุกตัว และนิสัยของห้อง ไม่ใช่คำแนะนำ`;
 }
 
 export function describeRiskMix(riskMix) {
@@ -178,21 +178,21 @@ export function describeRiskMix(riskMix) {
   const mediumCount = getCount(riskMix, "Medium");
   const lowCount = getCount(riskMix, "Low");
 
-  if (getCount(riskMix, "Very High") > 0 && highCount >= 2) return "Turbo-heavy";
-  if (highCount >= mediumCount + lowCount) return "Mostly high-energy";
-  if (lowCount > highCount && lowCount >= mediumCount) return "Defensive-leaning";
-  return "Balanced";
+  if (getCount(riskMix, "Very High") > 0 && highCount >= 2) return "ซนเทอร์โบ";
+  if (highCount >= mediumCount + lowCount) return "พลังสูง";
+  if (lowCount > highCount && lowCount >= mediumCount) return "ค่อนข้างใจเย็น";
+  return "สมดุล";
 }
 
 export function getFragilePointThemes(students) {
   const text = students.flatMap((student) => student.weaknesses).join(" ").toLowerCase();
   const themes = [
-    ["AI expectations", ["ai", "expectations"]],
-    ["valuation pressure", ["valuation"]],
-    ["competition", ["competition", "competitors", "rivals"]],
-    ["cycle sensitivity", ["cyclical", "cycle", "demand"]],
-    ["regulatory pressure", ["regulatory", "regulation"]],
-    ["volatility", ["volatility", "swings"]]
+    ["ความคาดหวังเรื่อง AI", ["ai", "expectations"]],
+    ["แรงกดดันด้านมูลค่า", ["valuation"]],
+    ["การแข่งขัน", ["competition", "competitors", "rivals"]],
+    ["วัฏจักรอุปสงค์", ["cyclical", "cycle", "demand"]],
+    ["กฎระเบียบ", ["regulatory", "regulation"]],
+    ["ความผันผวน", ["volatility", "swings"]]
   ];
 
   return themes
@@ -205,21 +205,21 @@ export function getStudyNotes(students) {
   const riskMix = getRiskMix(students);
   const themes = getCommonThemes(students);
   const notes = [
-    "Which classrooms show up more than once in this group?",
-    "Are several students exposed to the same market or technology cycle?",
-    "Which fragile points repeat across the roster?"
+    "ห้องเรียนไหนโผล่ซ้ำมากกว่าหนึ่งครั้ง?",
+    "มีนักเรียนหลายคนที่เจอวัฏจักรตลาดหรือเทคโนโลยีเดียวกันไหม?",
+    "จุดที่ต้องระวังข้อไหนซ้ำกันในรายชื่อห้องนี้?"
   ];
 
   if (themes.some((theme) => theme.label.toLowerCase().includes("ai"))) {
-    notes.push("How much of this class depends on AI demand and infrastructure spending?");
+    notes.push("ห้องนี้พึ่งพาความต้องการ AI และการลงทุนโครงสร้างพื้นฐานมากแค่ไหน?");
   }
 
   if (classroomMix[0]?.count >= 3) {
-    notes.push(`What happens to the class mood when the ${classroomMix[0].label} hallway has a rough exam week?`);
+    notes.push(`ถ้าโถง ${classroomMix[0].label} เจอสัปดาห์สอบยาก อารมณ์ทั้งห้องจะเปลี่ยนอย่างไร?`);
   }
 
   if (getCount(riskMix, "Very High") > 0) {
-    notes.push("Which students bring turbo or very high-volatility temperament into the room?");
+    notes.push("นักเรียนคนไหนพาความซนเทอร์โบเข้ามาในห้อง?");
   }
 
   return notes.slice(0, 5);
@@ -266,28 +266,28 @@ export function searchStudents(query) {
 
 function buildComparisonSummary(left, right) {
   if (left.assetType === "ETF" && right.assetType === "ETF") {
-    return `${left.ticker} and ${right.ticker} are both cohort-style student files, but ${left.ticker} sits in ${left.classroom} while ${right.ticker} sits in ${right.classroom}. Compare them as different classroom exposures, not as a prediction contest.`;
+    return `${left.ticker} และ ${right.ticker} เป็นแฟ้มแบบนักเรียนหมู่คณะทั้งคู่ แต่ ${left.ticker} อยู่ใน ${left.classroom} ส่วน ${right.ticker} อยู่ใน ${right.classroom} ให้เทียบเป็น exposure ของคนละห้อง ไม่ใช่การแข่งขันทำนายอนาคต`;
   }
 
   if (left.classroom === right.classroom) {
-    return `${left.ticker} and ${right.ticker} share the ${left.classroom}, but they carry different roles: ${left.ticker} is the ${left.archetype}, while ${right.ticker} is the ${right.archetype}. The useful lesson is how similar classrooms can still have very different student temperaments.`;
+    return `${left.ticker} และ ${right.ticker} อยู่ ${left.classroom} เหมือนกัน แต่บทบาทต่างกัน: ${left.ticker} เป็น ${left.archetype} ส่วน ${right.ticker} เป็น ${right.archetype} บทเรียนคือห้องเดียวกันก็มีนิสัยนักเรียนต่างกันได้มาก`;
   }
 
-  return `${left.ticker} brings ${left.archetype} energy from ${left.classroom}, while ${right.ticker} brings ${right.archetype} energy from ${right.classroom}. This side-by-side view is meant to highlight business character, risk temperament, and learning style differences.`;
+  return `${left.ticker} พาพลังแบบ ${left.archetype} จาก ${left.classroom} มาเจอกับ ${right.ticker} ที่เป็น ${right.archetype} จาก ${right.classroom} การวางข้างกันช่วยดูคาแรกเตอร์ธุรกิจ ระดับความซน และสไตล์การเรียนรู้ที่ต่างกัน`;
 }
 
 function describeClassroom(classroom, sectors) {
   const sectorLabel = sectors.length === 1 ? sectors[0] : "mixed academy";
   const descriptions = {
-    "AI Chip Workshop": "The high-energy workshop for AI accelerators, architecture lessons, memory cycles, and chip competition.",
-    "Software & Cloud Lab": "The enterprise lab where cloud platforms, databases, workflows, and productivity systems get organized.",
-    "Consumer Tech Hall": "The brand and product hallway for devices, electric machines, loyalty, and consumer behavior.",
-    "Platform & Commerce Hall": "The busy platform wing for search, ads, commerce, social networks, logistics, and cloud scale.",
-    "Data & Intelligence Club": "The analytical club for data platforms, mission briefings, AI workflows, and complex information systems.",
-    "Infrastructure Workshop": "The precision workshop for foundries, equipment, networking chips, and the backbone of modern computing.",
-    "ETF Cohort": "The cohort room for studying groups of students instead of only one company at a time.",
-    "Dividend Club": "A steadier club focused on quality habits and regular allowance-style distributions."
+    "ห้องชิป AI": "ห้องพลังสูงของตัวเร่ง AI สถาปัตยกรรมชิป วัฏจักรหน่วยความจำ และการแข่งขันสาย semiconductor",
+    "ห้องซอฟต์แวร์และคลาวด์": "ห้ององค์กรที่รวมคลาวด์ ฐานข้อมูล workflow และเครื่องมือทำงานให้เป็นระบบ",
+    "ห้องเทคผู้บริโภค": "โถงแบรนด์และโปรดักต์ที่พูดเรื่องอุปกรณ์ รถไฟฟ้า ความภักดี และพฤติกรรมผู้ใช้",
+    "ห้องแพลตฟอร์มและการค้า": "ปีกแพลตฟอร์มสุดคึกคัก มี search, ads, commerce, social, logistics และ cloud scale",
+    "ชมรมข้อมูลและปัญญา": "ชมรมสายวิเคราะห์สำหรับ data platform, mission briefing, AI workflow และระบบข้อมูลซับซ้อน",
+    "ห้องโครงสร้างพื้นฐาน": "เวิร์กช็อปหลังบ้านของ foundry, equipment, networking chip และกระดูกสันหลังของคอมพิวเตอร์ยุคใหม่",
+    "ห้องกองทุนรวมเพื่อนเยอะ": "ห้องสำหรับเรียนรู้กลุ่มนักเรียนหลายคน แทนการดูบริษัทเดียว",
+    "ชมรมปันผล": "ชมรมที่นิ่งขึ้น เน้นนิสัยคุณภาพ กระแสเงินสด และขนมประจำรอบแบบสายปันผล"
   };
 
-  return descriptions[classroom] || `A ${sectorLabel} hallway for students with similar academy habits.`;
+  return descriptions[classroom] || `โถง ${sectorLabel} สำหรับนักเรียนที่มีนิสัยธุรกิจคล้ายกัน`;
 }

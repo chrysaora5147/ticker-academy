@@ -43,15 +43,15 @@ export function PortfolioPage(params = {}) {
     <main class="portfolio-page">
       <section class="portfolio-hero">
         <div>
-          <p class="section-kicker">Build your classroom</p>
-          <h1>Portfolio Classroom</h1>
-          <p class="browse-subtitle">Enter 3 to 5 student IDs and study the group personality. This is a learning lens for classroom mix, shared themes, and risk temperament.</p>
+          <p class="section-kicker">จัดห้องเรียนของเรา</p>
+          <h1>จัดห้องเรียนของเรา</h1>
+          <p class="browse-subtitle">ใส่รหัสนักเรียน 3-5 คน แล้วดูนิสัยของห้องนี้ ส่วนผสมของห้อง และเรื่องที่ควรศึกษาเพิ่ม</p>
         </div>
         <div class="portfolio-hero-card">
           <strong>${students.length}</strong>
-          <span>valid students in this classroom</span>
-          <button class="secondary-action" data-copy-current-url="true" data-copy-status="#portfolio-copy-status" type="button">Copy classroom link</button>
-          <small id="portfolio-copy-status">Share this exact classroom roster.</small>
+          <span>นักเรียนที่อยู่ในห้องนี้</span>
+          <button class="secondary-action" data-copy-current-url="true" data-copy-status="#portfolio-copy-status" type="button">คัดลอกลิงก์ห้อง</button>
+          <small id="portfolio-copy-status">แชร์รายชื่อห้องนี้ได้เลย</small>
         </div>
       </section>
 
@@ -61,7 +61,7 @@ export function PortfolioPage(params = {}) {
 
       ${canAnalyze ? PortfolioAnalysis(students, classroomMix, archetypeMix, riskMix, commonThemes, fragilePoints) : EmptyPortfolioState()}
 
-      ${DisclaimerBox("Portfolio Classroom Builder is an educational simplification. It is not investment advice, not an allocation model, not a prediction, and not a trade-action recommendation.")}
+      ${DisclaimerBox("การจัดห้องเรียนของเราเป็นแบบฝึกหัดเพื่อการศึกษา ไม่ใช่คำแนะนำการลงทุน ไม่ใช่โมเดลจัดพอร์ต ไม่ใช่คำทำนาย และไม่ใช่สัญญาณซื้อขาย")}
     </main>
   `;
 }
@@ -69,15 +69,15 @@ export function PortfolioPage(params = {}) {
 function PortfolioAnalysis(students, classroomMix, archetypeMix, riskMix, commonThemes, fragilePoints) {
   return html`
     <section class="portfolio-summary portfolio-panel">
-      <p class="section-kicker">Class personality</p>
-      <h2>${describeRiskMix(riskMix)} classroom energy</h2>
+      <p class="section-kicker">นิสัยของห้องนี้</p>
+      <h2>${describeRiskMix(riskMix)} ของทั้งห้อง</h2>
       <p>${buildPortfolioClassroomSummary(students)}</p>
     </section>
     ${PortfolioRoster(students)}
     <section class="portfolio-analysis-grid">
-      ${MixPanel("Classroom mix", "Hallway count", classroomMix)}
-      ${MixPanel("Role / archetype mix", "Student role count", archetypeMix)}
-      ${MixPanel("Risk temperament", describeRiskMix(riskMix), riskMix)}
+      ${MixPanel("ส่วนผสมของห้อง", "นับตามห้องเรียน", classroomMix)}
+      ${MixPanel("บทบาทในห้อง", "นับตามคาแรกเตอร์", archetypeMix)}
+      ${MixPanel("ระดับความซน", describeRiskMix(riskMix), riskMix)}
       ${SharedThemes(commonThemes, fragilePoints)}
       ${StudyNotes(getStudyNotes(students))}
     </section>
@@ -86,10 +86,10 @@ function PortfolioAnalysis(students, classroomMix, archetypeMix, riskMix, common
 
 function PortfolioMessages({ duplicates, invalidTickers, isTooSmall, isTooLarge }) {
   const messages = [];
-  if (duplicates.length) messages.push(`Duplicate student IDs were folded into one desk: ${duplicates.join(", ")}.`);
-  if (invalidTickers.length) messages.push(`Not in the academy roster yet: ${invalidTickers.join(", ")}.`);
-  if (isTooSmall) messages.push("This class needs at least 3 valid students before we can read the room.");
-  if (isTooLarge) messages.push("This classroom has 5 desks for now, so only the first 5 unique student IDs are used.");
+  if (duplicates.length) messages.push(`รหัสซ้ำถูกนับเป็นโต๊ะเดียว: ${duplicates.join(", ")}`);
+  if (invalidTickers.length) messages.push(`ยังไม่มีในทะเบียนโรงเรียน: ${invalidTickers.join(", ")}`);
+  if (isTooSmall) messages.push("ห้องนี้ต้องมีนักเรียนอย่างน้อย 3 คนก่อนถึงจะอ่านนิสัยของห้องได้");
+  if (isTooLarge) messages.push("ตอนนี้ห้องมี 5 โต๊ะ จึงใช้รหัสไม่ซ้ำ 5 ตัวแรกก่อน");
 
   if (!messages.length) return "";
 
@@ -103,7 +103,7 @@ function PortfolioMessages({ duplicates, invalidTickers, isTooSmall, isTooLarge 
 function ExamplePortfolios() {
   return html`
     <section class="popular-comparisons portfolio-examples" aria-label="Starter classroom examples">
-      <p class="section-kicker">Starter classrooms</p>
+      <p class="section-kicker">ห้องตัวอย่าง</p>
       <div>
         ${getRecommendedPortfolios()
           .map((example) => {
@@ -118,9 +118,9 @@ function ExamplePortfolios() {
 function EmptyPortfolioState() {
   return html`
     <section class="empty-state portfolio-empty">
-      <p class="section-kicker">Waiting for the roster</p>
-      <h2>This class needs at least 3 valid students before we can read the room.</h2>
-      <p>Try a starter classroom or type something like AAPL, AMD, GOOGL, MSFT, QQQ.</p>
+      <p class="section-kicker">รอรายชื่อเข้าห้อง</p>
+      <h2>ต้องมีนักเรียนอย่างน้อย 3 คนก่อนถึงจะอ่านนิสัยของห้องได้</h2>
+      <p>ลองกดห้องตัวอย่าง หรือพิมพ์ประมาณ AAPL, AMD, GOOGL, MSFT, QQQ</p>
     </section>
   `;
 }

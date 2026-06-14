@@ -16,10 +16,10 @@ export function StudentProfilePage(ticker) {
       ${Header()}
       <main class="not-found">
         <section class="empty-state">
-          <p class="section-kicker">Student file missing</p>
-          <h1>That student ID is not in this academy roster yet.</h1>
-          <p>No profile for ${ticker.toUpperCase()}. Try one of the current academy records: ${studentProfiles.map((item) => item.ticker).join(", ")}.</p>
-          <button data-link="/">Back to search</button>
+          <p class="section-kicker">ไม่พบแฟ้ม</p>
+          <h1>ยังไม่มีรหัสนักเรียนนี้ในทะเบียนโรงเรียน</h1>
+          <p>ไม่พบแฟ้มของ ${ticker.toUpperCase()} ลองเปิดแฟ้มที่มีอยู่ตอนนี้: ${studentProfiles.map((item) => item.ticker).join(", ")}</p>
+          <button data-link="/">กลับไปค้นหา</button>
         </section>
       </main>
     `;
@@ -31,14 +31,14 @@ export function StudentProfilePage(ticker) {
       <section class="student-id-hero">
         <div class="student-id-card">
           <div class="id-card-top">
-            <span>Student ID</span>
-            ${pill(profile.assetType, profile.assetType === "ETF" ? "green" : "gold")}
+            <span>บัตรนักเรียน</span>
+            ${pill(profile.assetType === "ETF" ? "ETF" : "หุ้น", profile.assetType === "ETF" ? "green" : "gold")}
           </div>
           <h1>${profile.ticker}</h1>
           <p>${profile.companyName}</p>
           <div class="id-meta">
             <span>${profile.classroom}</span>
-            <span>${profile.riskLevel} risk</span>
+            <span>${riskLabel(profile.riskLevel)}</span>
           </div>
         </div>
         <div class="profile-intro">
@@ -56,14 +56,14 @@ export function StudentProfilePage(ticker) {
       <section class="profile-grid">
         ${ReportCard(profile)}
         <section class="profile-panel temperament-panel">
-          <p class="section-kicker">Risk temperament</p>
+          <p class="section-kicker">ระดับความซน</p>
           <h2>${profile.riskTemperament}</h2>
-          <p>Risk level: <strong>${profile.riskLevel}</strong></p>
+          <p>ระดับในแฟ้ม: <strong>${riskLabel(profile.riskLevel)}</strong> — ใช้เพื่อเข้าใจความผันผวนเชิงการเรียนรู้ ไม่ใช่คำตัดสินว่าดีหรือแย่กว่าใคร</p>
         </section>
-        ${TraitPanel("Strengths", profile.strengths, "strength-panel")}
-        ${TraitPanel("Weaknesses / fragile points", profile.weaknesses, "weakness-panel")}
+        ${TraitPanel("วิชาที่ถนัด", profile.strengths, "strength-panel")}
+        ${TraitPanel("จุดที่ต้องระวัง", profile.weaknesses, "weakness-panel")}
         <section class="profile-panel">
-          <h2>Investor fit, as a learning lens</h2>
+          <h2>เหมาะกับคนที่อยากเรียนรู้เรื่อง…</h2>
           <ul class="trait-list">
             ${profile.investorFit.map((item) => `<li>${item}</li>`).join("")}
           </ul>
@@ -73,4 +73,13 @@ export function StudentProfilePage(ticker) {
       ${DisclaimerBox(profile.disclaimerNote)}
     </main>
   `;
+}
+
+function riskLabel(level) {
+  return {
+    Low: "ซนเบา",
+    Medium: "ซนกลาง",
+    High: "ซนมาก",
+    "Very High": "ซนเทอร์โบ"
+  }[level] || level;
 }

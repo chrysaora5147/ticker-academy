@@ -17,25 +17,25 @@ export function ClassroomsPage(filters = {}) {
     <main class="browse-page">
       <section class="browse-hero">
         <div>
-          <p class="section-kicker">Browse the academy</p>
-          <h1>Classrooms</h1>
-          <p class="browse-subtitle">Walk the hallways by classroom, role, and risk temperament. This is a school map, not a financial screener.</p>
+          <p class="section-kicker">เดินดูโรงเรียน</p>
+          <h1>ห้องเรียนทั้งหมด</h1>
+          <p class="browse-subtitle">เลือกเดินดูแต่ละห้องตามสายวิชา บทบาท และระดับความซน นี่คือแผนที่โรงเรียน ไม่ใช่หน้าคัดหุ้น</p>
         </div>
         <div class="browse-stats" aria-label="Academy stats">
           <strong>${getClassroomSummaries().length}</strong>
-          <span>classrooms</span>
+          <span>ห้องเรียน</span>
           <strong>${students.length}</strong>
-          <span>matching student files</span>
+          <span>แฟ้มนักเรียนที่ตรงเงื่อนไข</span>
         </div>
       </section>
 
       <section class="section-block">
         <div class="section-heading">
           <div>
-            <p class="section-kicker">Hallways</p>
-            <h2>Pick a classroom</h2>
+            <p class="section-kicker">โถงทางเดิน</p>
+            <h2>เลือกเดินเข้าห้อง</h2>
           </div>
-          <button class="secondary-action" data-link="/classrooms">Clear filters</button>
+          <button class="secondary-action" data-link="/classrooms">ล้างตัวกรอง</button>
         </div>
         <div class="browse-classroom-grid">
           ${getClassroomSummaries().map((summary) => ClassroomCard(summary, selected.classroom)).join("")}
@@ -44,34 +44,34 @@ export function ClassroomsPage(filters = {}) {
 
       <section class="browse-controls" aria-label="Browse filters">
         <label>
-          <span>Filter by classroom</span>
+          <span>กรองตามห้อง</span>
           <select id="classroom-filter">
-            ${FilterOption("All classrooms", "", selected.classroom)}
+            ${FilterOption("ทุกห้องเรียน", "", selected.classroom)}
             ${getClassrooms().map((classroom) => FilterOption(classroom, classroom, selected.classroom)).join("")}
           </select>
         </label>
         <label>
-          <span>Filter by role</span>
+          <span>กรองตามบทบาท</span>
           <select id="archetype-filter">
-            ${FilterOption("All roles", "", selected.archetype)}
+            ${FilterOption("ทุกบทบาท", "", selected.archetype)}
             ${getArchetypes().map((archetype) => FilterOption(archetype, archetype, selected.archetype)).join("")}
           </select>
         </label>
         <label>
-          <span>Filter by risk level</span>
+          <span>กรองตามระดับความซน</span>
           <select id="risk-filter">
-            ${FilterOption("All risk levels", "", selected.riskLevel)}
+            ${FilterOption("ทุกระดับความซน", "", selected.riskLevel)}
             ${getRiskLevels().map((riskLevel) => FilterOption(riskLevel, riskLevel, selected.riskLevel)).join("")}
           </select>
         </label>
-        <button class="clear-filter-button" id="clear-filters" type="button">Reset hallway pass</button>
+        <button class="clear-filter-button" id="clear-filters" type="button">ล้างบัตรเดินห้อง</button>
       </section>
 
       <section class="section-block">
         <div class="section-heading">
           <div>
-            <p class="section-kicker">Student files</p>
-            <h2>${students.length} matching students</h2>
+            <p class="section-kicker">แฟ้มนักเรียน</p>
+            <h2>พบนักเรียน ${students.length} คน</h2>
           </div>
         </div>
         ${students.length ? `<div class="student-grid browse-results">${students.map(StudentCard).join("")}</div>` : EmptyBrowseState()}
@@ -87,7 +87,7 @@ function ClassroomCard(summary, selectedClassroom) {
 
   return html`
     <button class="browse-classroom-card ${isActive ? "active" : ""}" data-link="/classrooms?classroom=${encodeURIComponent(summary.classroom)}">
-      <span>${summary.count} ${summary.count === 1 ? "student" : "students"}</span>
+      <span>จำนวนนักเรียน ${summary.count} คน</span>
       <strong>${summary.classroom}</strong>
       <p>${summary.description}</p>
       <small>${summary.tickers.join(", ")}</small>
@@ -102,10 +102,10 @@ function FilterOption(label, value, selectedValue) {
 function EmptyBrowseState() {
   return html`
     <section class="empty-state hallway-empty">
-      <p class="section-kicker">Quiet hallway</p>
-      <h2>No students found in this hallway yet.</h2>
-      <p>Try clearing one filter or picking a broader classroom so more student files can report for attendance.</p>
-      <button data-link="/classrooms">Clear filters</button>
+      <p class="section-kicker">โถงเงียบมาก</p>
+      <h2>ยังไม่เจอนักเรียนในโถงนี้</h2>
+      <p>ลองล้างตัวกรองสักอัน หรือเลือกห้องที่กว้างขึ้นให้เพื่อนมาเข้าแถวมากกว่าเดิม</p>
+      <button data-link="/classrooms">ล้างตัวกรอง</button>
     </section>
   `;
 }
