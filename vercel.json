@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/students/:ticker",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/classrooms",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/compare",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/index.html"
+    }
+  ]
+}
