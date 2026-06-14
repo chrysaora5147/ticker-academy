@@ -3,16 +3,16 @@ import { html } from "./html.js";
 export function SharedThemes(themes, fragilePoints) {
   return html`
     <section class="portfolio-panel">
-      <p class="section-kicker">Shared strengths</p>
-      <h2>Common classroom themes</h2>
+      <p class="section-kicker">สิ่งที่ห้องนี้มีร่วมกัน</p>
+      <h2>ธีมที่โผล่ซ้ำในห้อง</h2>
       <div class="theme-chip-grid">
         ${themes.length
           ? themes.map((theme) => `<span>${theme.label} (${theme.count})</span>`).join("")
-          : `<span>Mixed themes with no repeated tag yet</span>`}
+          : `<span>ห้องนี้ผสมหลายธีม ยังไม่มีแท็กซ้ำเด่น ๆ</span>`}
       </div>
       <div class="fragile-note">
-        <p class="section-kicker">Fragile points</p>
-        <p>${fragilePoints.length ? `This class may be sensitive to ${fragilePoints.join(", ")}.` : "This class has varied fragile points, so study each student file individually."}</p>
+        <p class="section-kicker">สิ่งที่ห้องนี้ควรศึกษาเพิ่ม</p>
+        <p>${fragilePoints.length ? `ห้องนี้อาจอ่อนไหวกับ ${fragilePoints.join(", ")}` : "ห้องนี้มีจุดเปราะบางหลายแบบ ควรเปิดดูแฟ้มรายคนประกอบ"}</p>
       </div>
     </section>
   `;
