@@ -5,19 +5,19 @@ export function Header() {
 
   return html`
     <header class="site-header">
-      <button class="brand-lockup" aria-label="Go to Ticker Academy home" data-link="/">
+      <button class="brand-lockup" aria-label="กลับหน้าแรก Ticker Academy" data-link="/">
         <span class="brand-mark">TA</span>
         <span>
           <strong>Ticker Academy</strong>
-          <small>Student records for the market</small>
+          <small>โรงเรียนหุ้นมีชีวิต</small>
         </span>
       </button>
-      <nav class="top-nav" aria-label="Primary navigation">
-        ${NavButton("Home", "/", currentPath)}
-        ${NavButton("Classrooms", "/classrooms", currentPath)}
-        ${NavButton("Compare", "/compare", currentPath)}
-        ${NavButton("Portfolio", "/portfolio", currentPath)}
-        <a href="#disclaimer">Disclaimer</a>
+      <nav class="top-nav" aria-label="เมนูหลัก">
+        ${NavButton("หน้าแรก", "/", currentPath)}
+        ${NavButton("ห้องเรียน", "/classrooms", currentPath)}
+        ${NavButton("เทียบสมุดพก", "/compare", currentPath)}
+        ${NavButton("จัดห้องของเรา", "/portfolio", currentPath)}
+        <a href="#disclaimer">คำเตือน</a>
       </nav>
     </header>
   `;
