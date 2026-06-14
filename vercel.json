@@ -1,24 +1,23 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/assets/:path*",
-      "destination": "/assets/:path*"
+      "src": "index.html",
+      "use": "@vercel/static"
     },
     {
-      "source": "/students/:ticker",
-      "destination": "/index.html"
+      "src": "assets/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
     },
     {
-      "source": "/classrooms",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/compare",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/portfolio",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
